@@ -33,4 +33,5 @@ The ratings also rely on data from popular websites including Google, Amazon, Wi
 - **Strategic Decisions**: It can aid in making strategic decisions regarding which programming language to adopt when starting a new software project.
 
 For more information on the definition and methodology of the TIOBE index, feel free to check [here](#).
+\
 [View Language List](languages.md)
