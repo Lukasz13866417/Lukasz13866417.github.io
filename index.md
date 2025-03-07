@@ -26,5 +26,6 @@ For more detailed information on the TIOBE index, you can find the [definition h
 
 --- 
 
-In conclusion, as the landscape of programming continues to evolve, both fast-performing languages and accessible options like Python will continue to play crucial roles in shaping the future of technology and software development.\[View Language List](languages.md)
+In conclusion, as the landscape of programming continues to evolve, both fast-performing languages and accessible options like Python will continue to play crucial roles in shaping the future of technology and software development.
+\[View Language List](languages.md)
 \[Extra Information](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
