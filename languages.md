@@ -40,7 +40,7 @@
 - **Rank 2025**: 8 | **Rank 2024**: 8
 - **Change**: +0.53% ↔
 
-## [Delphi/Object Pascal](Object_Pascal.md)
+## [Delphi/Object Pascal](Delphi/Object_Pascal.md)
 - **Popularity**: 2.18%
 - **Rank 2025**: 9 | **Rank 2024**: 12
 - **Change**: +0.78% ↑
