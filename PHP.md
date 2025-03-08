@@ -2,25 +2,23 @@
 
 ## Overview
 
-### Summary of PHP
-
-PHP, originally created by Rasmus Lerdorf in 1993 and released in 1995, is a versatile open-source scripting language primarily used for web development but capable of various programming tasks. Over the years, PHP has evolved through multiple versions, notably PHP 7 and PHP 8, introducing improvements like Just-In-Time compilation, enhanced type system, and new syntax features such as match expressions and constructor property promotion. Despite declining popularity in certain circles, PHP remains highly utilized in web content management systems, with significant usage in platforms like WordPress and Joomla, and ongoing support from the PHP Foundation ensures its continued development and maintenance.
+PHP, which stands for "Hypertext Preprocessor," is a widely-used open-source scripting language primarily suited for web development, allowing developers to create dynamic content efficiently. It features a simple syntax that resembles C, making it accessible and enabling rapid development, while its extensive ecosystem supports numerous frameworks and libraries for building robust applications. Despite PHP's popularity, particularly for powering content management systems like WordPress, it has faced criticism for issues such as inconsistent syntax and security vulnerabilities, leading some developers to prefer other languages.
 
 ## Detailed Information
 
-# Overview of PHP (Hypertext Preprocessor)
+PHP (PHP: Hypertext Preprocessor) is a widely-used general-purpose scripting language that is particularly suited for web development. Originally created by Rasmus Lerdorf in 1994, its ease of use and flexibility have made it the backbone for many of the world's most popular websites, including Facebook and Wikipedia. PHP is known for its capability to seamlessly interact with HTML, providing developers with the ability to create dynamic web pages easily.
 
-PHP, initially created by Rasmus Lerdorf in 1994 as "Personal Home Page," has evolved into a prominent scripting language widely used for web development. Now known as PHP: Hypertext Preprocessor, its multi-paradigm nature supports imperative, functional, and object-oriented programming. The first public release occurred in 1995, and PHP has seen numerous updates, with the latest stable release being PHP 8.4.4 as of February 13, 2025.
+As an open-source language, PHP is free to use and supported by a large community, which benefits developers through extensive documentation and numerous frameworks, such as Laravel and Symfony, that foster best practices and accelerate application development. The latest versions, such as PHP 8.4, offer significant improvements in performance, security, and feature sets, including Just-In-Time compilation and enhanced object-oriented capabilities, keeping it competitive with other modern languages.
 
-PHP is primarily executed on web servers through a PHP interpreter and is particularly effective for generating dynamic web content. It can be embedded within HTML, and its ease of integration with various databases, notably MySQL, has made it a favorite within the LAMP (Linux, Apache, MySQL, PHP) stack. Over time, PHP has witnessed substantial changes across versions, improving error handling, performance, and modern programming capabilities—especially with the introduction of features such as Just-In-Time compilation in PHP 8.
+However, PHP has faced criticism over the years regarding its design flaws and security vulnerabilities, particularly due to its historically poor reputation for producing bad code and a lack of built-in debugging tools. Additionally, many developers perceive its syntax and inconsistencies as drawbacks. Despite these criticisms, PHP remains a dominant force in server-side scripting, with a 2025 usage share indicating that about 75% of websites utilize PHP as their server-side language.
 
-Key features of PHP include a variety of data types, support for user-defined functions, an extensive standard library, and built-in mechanisms for session management and data handling. PHP is also known for its vibrant community and the PHP Foundation's initiative to ensure ongoing development and support. Despite security vulnerabilities historically associated with PHP, significant strides have been made to improve security and best practices.
+To facilitate learning, PHP's relatively gentle learning curve appeals to new developers. Its cross-platform capability allows it to run on various operating systems, making it accessible for numerous applications beyond web development, such as command-line scripting and even desktop applications in some cases.
 
-As of January 2025, PHP maintains a strong web presence, powering over 75% of websites that use server-side languages. Key updates in recent versions (8.0 to 8.4) include improvements to type handling, performance optimization, syntactical enhancements, and the introduction of additional built-in functions and libraries.
+As the web continues to evolve with modern technologies, PHP is adapting to new trends, yet it still faces challenges with legacy code and a business ecosystem that often favors newer languages for microservices and complex applications. Despite its ups and downs, PHP's capacity for rapid development and strong community support keep it relevant in today's programming landscape.
 
-The PHP license is unique in that it does not allow derived software to use "PHP" in the name, which potentially complicates compatibility with GNU General Public License software. Despite this, PHP remains a critical component in modern web development.
-
-For more information, please visit the following sources:
-- [Wikipedia: PHP](https://en.wikipedia.org/wiki/PHP)
-- [Official PHP Website](https://www.php.net/)
+* [PHP Official Site](https://www.php.net/)
+* [PHP Wikipedia Article](https://en.wikipedia.org/wiki/PHP)
+* [PHP on Reddit](https://www.reddit.com/r/PHP/comments/1fy71s/why_do_so_many_developers_hate_php/)  
+* [Advantages and Disadvantages of PHP on GeeksforGeeks](https://www.geeksforgeeks.org/advantages-and-disadvantages-of-php/)  
+* [Introduction to PHP Programming](https://codeinstitute.net/global/blog/what-is-php-programming/)  
 

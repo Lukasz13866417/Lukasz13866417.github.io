@@ -2,25 +2,18 @@
 
 ## Overview
 
-**Summary of Visual Basic**
-
-Visual Basic (VB) is an object-oriented programming language developed by Microsoft, known for its ease of use in creating graphical user interface (GUI) applications and supporting rapid application development. Originally released in 1991, Classic Visual Basic allowed developers to utilize drag-and-drop design features, while its successor, Visual Basic .NET, operates within the .NET framework and is distinct from Classic VB. Despite its legacies and ongoing support for VB6 applications, modern alternatives like VB.NET and Visual Basic for Applications (VBA) are more prevalent in current software development practices.
+Visual Basic (VB) is an object-oriented programming language developed by Microsoft, known for its simplified syntax and rapid application development capabilities, primarily within the Microsoft ecosystem. While VB remains viable for maintaining legacy applications and is easily integrated with other Microsoft technologies, it faces limitations such as reduced cross-platform support and potential performance issues compared to lower-level languages. Despite being perceived as a legacy language, especially with versions like VB6, it still holds relevance for specific applications due to its ease of use.
 
 ## Detailed Information
 
-# Summary of Visual Basic
+Visual Basic (VB) is an object-oriented programming language developed by Microsoft. Known for its simplicity and ease of use, it allows rapid application development (RAD) through a drag-and-drop interface. VB integrates well with other Microsoft technologies, making it a strong option for creating applications within the Microsoft ecosystem. It provides backward compatibility which is beneficial for maintaining legacy systems.
 
-Visual Basic (VB) is an object-oriented programming language developed by Microsoft, first released in 1991. It is designed to facilitate rapid application development (RAD) of graphical user interface (GUI) applications. With a focus on ease of use and low learning curves, VB emphasizes drag-and-drop components within its integrated development environment (IDE), enabling developers to create applications without extensive coding. 
+Despite its advantages, VB has notable limitations, especially in terms of platform support, as it primarily runs on Windows. This can hinder cross-platform development and limit its appeal compared to more versatile languages like Java or Python. Performance-wise, VB may be slower than lower-level languages such as C or C#, primarily due to its interpreted nature and runtime overhead.
 
-VB supports event-driven programming and utilizes the Component Object Model (COM) to share components between applications. It produces native executables, which run relatively fast compared to earlier interpreted BASIC languages. The final classic version, VB6, was released in 1998 and has since been succeeded by Visual Basic .NET (VB.NET), part of the .NET ecosystem, which is not backward compatible with VB6.
+Visual Basic is often criticized, with many viewing versions like VB6 as outdated or cumbersome, contributing to its perception as a "dreaded legacy language." Some developers argue that the availability of limited fresh learning resources can hinder newcomers’ interest in mastering VB. However, for those familiar with the language or working on legacy systems, it remains a viable option.
 
-While VB6 enjoyed widespread popularity due to its ease of learning, it has received criticism for performance issues, poor object-oriented programming support, and legacy challenges such as "DLL hell." As of 2008, Microsoft's support for the VB6 IDE was discontinued, although compatibility for VB6 applications remains on some Windows operating systems. Despite this, VB continues to influence modern programming through derivatives like Visual Basic for Applications (VBA) in Microsoft Office, and the derived languages like Gambas.
+In 2023, many still find value in Visual Basic for specific applications, such as desktop software and simple database applications. The language boasts a supportive community and extensive resources, which can remedy some challenges new developers face. Ultimately, choosing to learn or use Visual Basic should involve weighing its benefits against the project's specific needs and supporting technologies.
 
-The programming style in Visual Basic includes structured programming principles and distinctive features such as default case insensitivity and no required line termination characters. It provides a vast library of utility functions, supports database access, and allows for dynamic memory management to mitigate memory leaks. Examples of simple VB code demonstrate its accessibility, showing that it remains a feasible choice for beginners.
-
-Despite the transition to newer technologies, many developers still favor VB for its straightforward approach to programming, leading to ongoing interest and community support for legacy applications.
-
-*Source:*
-- [Microsoft Learn - Visual Basic Docs](https://learn.microsoft.com/en-us/dotnet/visual-basic/)
-- [Wikipedia - Visual Basic (Classic)](https://en.wikipedia.org/wiki/Visual_Basic_(classic))
+* [Microsoft Documentation on Visual Basic](https://learn.microsoft.com/en-us/dotnet/visual-basic/)
+* [Advantages and Disadvantages of Visual Basic](https://iiteeeestudents.wordpress.com/2011/08/28/advantages-and-disadvantages-of-visual-basic/)
 

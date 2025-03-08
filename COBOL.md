@@ -2,25 +2,17 @@
 
 ## Overview
 
-**COBOL Overview**
-
-COBOL, short for Common Business-Oriented Language, is a high-level programming language developed in the late 1950s, primarily for business data processing. Its English-like syntax and structure make it highly readable, which has contributed to its enduring use in various industries, including banking and government, where it operates critical applications. Although often labeled a legacy system, COBOL continues to evolve, incorporating modern programming paradigms, and remains integral in processing significant amounts of transactions daily across mainframe computers and various operating systems.
+COBOL, which stands for Common Business Oriented Language, is a high-level programming language primarily designed for business applications, notable for its English-like syntax and widespread use in financial and administrative systems. Despite being over 60 years old, demand for COBOL programmers has surged due to the reliance of many government and banking systems on COBOL for processing tasks, a situation made critical during recent crises like the COVID-19 pandemic. While considered antiquated by some due to its verbosity and limitations, COBOL's design is tailored for handling complex business data structures, making it essential in legacy systems that manage vast amounts of financial transactions.
 
 ## Detailed Information
 
-# Summary of COBOL
+COBOL, or COmmon Business Oriented Language, is a high-level programming language created in 1959, primarily for business applications and administrative systems. It was developed under the sponsorship of the U.S. Department of Defense and was intended to be portable across different computing systems. The language features an English-like syntax aimed at making programs readable for both programmers and non-programmers. COBOL is structured into four divisions: identification, environment, data, and procedure, each containing various sections and paragraphs to organize code execution and data management.
 
-COBOL, short for **Common Business-Oriented Language**, is a high-level, compiled programming language designed for business data processing. Developed in 1959 by the Conference on Data Systems Languages (CODASYL), it was inspired by earlier languages such as FLOW-MATIC and created as part of a U.S. Department of Defense initiative to develop a portable programming language for data processing. The first version, COBOL-60, was released in 1960, quickly gaining popularity for its readability and versatility.
+Despite being labeled by some as outdated, COBOL remains widely used in legacy systems, particularly in finance, government, and administrative sectors, with estimates suggesting that billions of lines of COBOL code are still in operation today. Recent calls for COBOL programmers have emerged due to the increased strain on unemployment systems during the COVID-19 pandemic, highlighting ongoing demand for specialists capable of maintaining and updating these legacy applications. As of 2023, significant parts of the U.S. financial and government systems are still reliant on COBOL, fueling interest in training new programmers in the language.
 
-The language features a verbose, English-like syntax, comprised of four primary divisions: **Identification**, **Environment**, **Data**, and **Procedure**. This structure supports modular programming and separation of concerns, making COBOL programs easier to maintain. However, its verbosity and limited native support for structure led to criticism, and issues with legacy code often make maintenance difficult.
+COBOL has faced criticism for its verbosity and perceived lack of modern programming constructs, making it less appealing to new generations of software developers. However, its utility in processing large volumes of business and financial data, with precise manipulation of numeric data types, demonstrates its enduring relevance, especially in contexts where accuracy is paramount. The language's structured capabilities and update through various standards—such as COBOL 2002 introducing object-oriented features and COBOL 2023 adding more modern functionalities—show an effort to keep it applicable to contemporary programming needs.
 
-Over the years, COBOL has undergone several revisions to modernize its features and support structured and object-oriented programming. Notably, the latest standardized version, COBOL 2023, introduced asynchronous messaging and enhanced file operations. Despite being considered a legacy programming language, COBOL underpins a significant portion of the global financial system, managing approximately 40% of online banking transactions and processing billions in commerce daily.
+In terms of practical learning, getting started with COBOL can be facilitated through platforms like Visual Studio Code, which supports COBOL extensions, alongside resources like online courses and community tutorials. While concerns about the shrinking pool of COBOL programmers persist, proactive initiatives by organizations, including partnerships for training, aim to bridge the skills gap and ensure this legacy language continues to evolve within modern technological ecosystems.
 
-Organizations continue to rely on COBOL due to its stability, scalability, and ability to handle large volumes of data efficiently. However, a decline in skilled COBOL programmers poses a threat to the ongoing maintenance of critical systems built on it, raising concerns about future sustainability in an ever-evolving technology landscape.
-
-Despite newer programming languages entering the scene, COBOL remains embedded in the infrastructure of many banking, government, and administrative systems worldwide.
-
-> For more information, please refer to the original sources:    
-> [Wikipedia on COBOL](https://en.wikipedia.org/wiki/COBOL)    
-> [IBM on COBOL](https://www.ibm.com/think/topics/cobol)  
+*[Learn more about COBOL here](https://stackoverflow.blog/2020/04/20/brush-up-your-cobol-why-is-a-60-year-old-language-suddenly-in-demand/) and [here](https://en.wikipedia.org/wiki/COBOL).*
 

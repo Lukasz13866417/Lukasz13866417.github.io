@@ -2,33 +2,22 @@
 
 ## Overview
 
-### Summary of Ruby Programming Language
-
-Ruby is a dynamic, open-source programming language designed for simplicity and productivity, featuring an elegant syntax that is easy to read and write. The community actively maintains it, with recent updates including the release of Ruby versions 3.4.2, 3.2.7, and a few security advisories addressing vulnerabilities. New users can quickly learn Ruby through interactive sessions using the IRB (Interactive Ruby) tool, which allows for real-time coding and experimentation.
+Ruby is a dynamic, open-source programming language designed for simplicity and productivity, characterized by its elegant syntax and complete object-oriented approach. Developed by Yukihiro Matsumoto, Ruby emphasizes human-centered programming, enabling rapid application development through features like garbage collection, dynamic typing, and metaprogramming. Widely known for powering the Ruby on Rails framework, Ruby is utilized in web development but also supports a variety of applications, showcasing its flexibility and accessibility for developers.
 
 ## Detailed Information
 
-## Overview of Ruby Programming Language
+Ruby is a dynamic, open-source programming language created by Yukihiro Matsumoto in 1995. Emphasizing simplicity and productivity, Ruby has an elegant syntax that is easy to read and write, making it accessible for developers. It's known for being a strongly object-oriented language, wherein everything is treated as an object, which supports intuitive design and code reuse. Ruby is also dynamically typed, allowing for flexible coding styles without the need for strict type declarations. 
 
-Ruby is a dynamic, open-source programming language known for its simplicity and productivity. It boasts an elegant syntax that is easy to read and write, making it particularly suitable for beginners and experienced developers alike. Ruby is supported by a vibrant community that contributes to its ecosystem through libraries, documentation, and various resources.
+Despite its strengths, Ruby's execution speed can be slower compared to other lower-level languages, due in part to its metaprogramming capabilities that allow developers to manipulate code at runtime. This flexibility can lead to unpredictable behaviors in larger projects and challenges in debugging. Ruby's community extensively uses a package management system called RubyGems for distributing libraries and applications, which enhances its usability, though it also introduces potential issues like dependency conflicts.
 
-### Recent Updates
+An essential aspect of Ruby is the Ruby on Rails framework, which drastically increased its popularity by enabling rapid web application development. Rails promotes conventions like DRY (Don't Repeat Yourself), emphasizing efficient coding practices. Ruby is well-suited for web development, desktop applications, automation scripts, and data processing. 
 
-As of early 2025, several versions of Ruby have been released, with Ruby 3.4.2 being the latest. Security advisories have been issued for vulnerabilities such as CVE-2025-27219, CVE-2025-27220, and CVE-2025-27221. Developers are encouraged to upgrade dependencies like the net-imap gem following identified issues.
+Though it faces competition from languages like Python, which is often preferred for tasks in data science and artificial intelligence, many developers appreciate Ruby's developer-friendly nature and its philosophy of "many ways of doing things." This intrinsic flexibility, combined with its elegant syntax, contributes to ongoing enthusiasm among Ruby enthusiasts.
 
-### Getting Started with Ruby
+Ruby continues to evolve, with regular updates improving performance and functionality, such as the recent implementation of Just-In-Time (JIT) compilation in its versions. Notably, Ruby 3.3 was released in December 2023, showcasing further enhancements.
 
-New users can start programming in Ruby in just 20 minutes through practical exercises leveraging Interactive Ruby (IRB). This tool allows users to experiment with Ruby code in real-time. For instance, using IRB, type `"Hello World"` or mathematical expressions to see immediate results, facilitating a hands-on learning experience.
+*For further reading:*
+- [Ruby Programming Language](https://www.ruby-lang.org/en/)
+- [Wikipedia on Ruby](https://en.wikipedia.org/wiki/Ruby_(programming_language))
 
-The built-in `Math` module of Ruby provides essential mathematical functions, allowing developers to easily perform operations like square roots. Furthermore, IRB can function as a basic calculator, showcasing Ruby's versatility in both application development and interactive programming.
-
-### Community Engagement
-
-The Ruby community is welcoming, with various avenues for participation, including mailing lists and user groups worldwide. Members can read blogs, newsletters, and contribute to the development of Ruby itself through issue tracking and core enhancements.
-
-Ruby’s design philosophy—emphasizing simplicity and productivity—continues to attract developers seeking an effective and enjoyable programming experience.
-
-For more detailed information, visit the following sources:
-- [Ruby Official Site](https://www.ruby-lang.org/en/)
-- [Ruby in Twenty Minutes Tutorial](https://www.ruby-lang.org/en/documentation/quickstart/)
 
