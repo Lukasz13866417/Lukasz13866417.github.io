@@ -2,45 +2,35 @@
 
 ## Overview
 
-### Summary of Prolog
+# Summary of Prolog
 
-Prolog is a logic programming language rooted in artificial intelligence and first-order logic, designed to represent relationships through facts and rules. Developed in the early 1970s, it remains relevant today, with applications across various fields like natural language processing, theorem proving, and expert systems. The language is characterized by its declarative nature, allowing computations to be initiated through queries that explore defined relations. While Prolog may not be widely used as a general-purpose programming language, its unique capabilities in reasoning and knowledge representation make it a valuable tool in specific applications. Ongoing developments, like Scryer Prolog, emphasize its potential for hybrid programming and enhanced performance.
+Prolog is a logic programming language originating in artificial intelligence and computational linguistics, created around 1972. It operates primarily as a declarative language, expressing program logic through relations defined by facts and rules, with computation initiated by executing queries. While Prolog has been influential in areas such as automated theorem proving and natural language processing, its application in the broader software industry is limited, with most projects being relatively small in scale. Recent developments, such as Scryer Prolog, enhance its capabilities and interactivity, especially in integration with languages like Python. Despite its unique advantages in certain domains, learning Prolog requires a shift in thinking, making it especially suited for tasks that involve logical reasoning and complex problem-solving.
 
 ## Detailed Information
 
-Prolog is a declarative programming language rooted in first-order logic, designed primarily for artificial intelligence and automated theorem proving. As one of the earliest logic programming languages, it has maintained a presence in various fields, including natural language processing, expert systems, and theorem proving, through numerous commercial and free implementations. Prolog operates by defining relations through facts and rules, with computations initiated by querying these relationships, which differentiates it from traditional imperative programming languages.
+Prolog is a logic programming language that originated in the early 1970s, specifically developed by Alain Colmerauer and Philippe Roussel. It is designed for applications in artificial intelligence, automated theorem proving, and computational linguistics, relying on first-order logic to express relationships between facts and rules. As a declarative language, Prolog allows programmers to describe what they want to achieve rather than specifying how to achieve it.
 
-### History
-Developed around 1972 by Alain Colmerauer and Philippe Roussel, the name "Prolog" stands for "Programmation en logique" (Programming in logic). The language is based on Horn clauses and aims to balance logical and procedural representations of knowledge.
+### Historical Context
+The first implementation was written in Fortran and later a compiler was developed that became influential in AI research. Prolog gained traction in Europe, contrasting with America where Lisp was preferred. The Fifth Generation Computer Systems project spurred the evolution of Prolog, leading to the creation of a variant called Kernel Language. Despite its academic popularity, Prolog has seen limited adoption in the broader software industry, with a focus on smaller applications typically under 100,000 lines of code.
 
-### Syntax and Semantics
-Prolog programs consist of clauses that define both facts and rules. A rule is structured as follows:
+### Usage and Applications
+Prolog is effectively used in specific domains including natural language processing, expert systems, and theorem proving. Notably, IBM's Watson utilizes Prolog for pattern matching in language processing tasks. Its strengths lie in its ability to handle problems that require logical reasoning, such as writing parsers and constraint solving tasks. Though not widely embraced in mainstream programming, Prolog is experiencing renewed interest due to its unique advantages in specific applications.
 
-```prolog
-Head :- Body.
-```
+### Syntax and Execution
+In Prolog, logic is portrayed through predicates and relations formed by clauses—combinations of rules and facts. The single data type, termed a "term," can include atoms, numbers, variables, and compound terms. Execution begins with a query, where the Prolog engine searches for resolutions using SLD resolution techniques, allowing backtracking to explore different logical paths if necessary.
 
-This indicates that the "Head" is true if the "Body" is also true. In contrast, facts are assertions with no body. The fundamental data type in Prolog is the term, which can represent atoms, numbers, variables, or compound structures. 
+### Language Characteristics
+Prolog's declarative nature may pose a learning curve for those accustomed to imperative programming. However, it offers succinct solutions for problems where backtracking is necessary, outperforming many traditional languages in certain scenarios. Its non-deterministic evaluation enables powerful pattern matching, although constructing efficient programs can be complex due to performance-related challenges.
 
-A basic query example showcasing standard output is:
+### Modern Developments
+Recent advancements like Scryer Prolog have enhanced performance and compliance with ISO standards, drawing interest from modern developers. Interoperability with languages such as Python has been bolstered, allowing for hybrid approaches to programming that leverage Prolog’s capabilities alongside other paradigms. This innovative integration positions Prolog as a valuable tool in the evolving landscape of software development.
 
-```prolog
-?- write('Hello World!'), nl.
-```
+In summary, while Prolog may not be the first choice for general programming tasks, it shines in logic-based implementations and academic circles. Understanding its principles can offer new perspectives on problem-solving within programming.
 
-### Execution Model
-Execution begins with a query, where the Prolog engine uses SLD (Selective Linear Definite) resolution to find a refutation of the negated goal. If a solution is found, variable bindings are presented back to the user. Unique features of Prolog include support for negation as failure, allowing non-monotonic reasoning, and its capability for recursion, facilitating the creation of iterative algorithms.
+*Sources:*
 
-### Current Relevance and Use Cases
-Prolog remains a niche language, primarily suited for problems characterized by complex reasoning tasks and knowledge representation. Its distinct advantages become evident when tackling problems amenable to backtracking, such as natural language processing and knowledge-based systems. Notably, Prolog is integrated into projects like IBM’s Watson and various modern database systems, demonstrating its adaptability in the landscape of contemporary computational solutions. 
-
-Recent discussions on platforms like Reddit and Hacker News reflect ongoing interest in Prolog for various applications. For instance, community members explore its use alongside Python, illustrating cross-language integration for enhanced project capabilities. Notable implementations, such as SWI-Prolog and emerging ones like Scryer Prolog, emphasize continuous development and the importance of Prolog in regulated domains due to its robust ISO standard conformance.
-
-### Conclusion
-While Prolog may not dominate the programming world as a general-purpose language, its utility for specific applications reinforces its significance, particularly in AI and logic programming spheres. The language offers a declarative approach that can simplify complex problem-solving, making it valuable for understanding and implementing logic-based systems.
-
-[Wikipedia](https://en.wikipedia.org/wiki/Prolog)  
-[Reddit](https://www.reddit.com/r/prolog/comments/952d5v/is_prolog_still_used_today_and_is_it_still_worth/)  
-[Hacker News](https://news.ycombinator.com/item?id=40994552)  
-[Stack Overflow](https://stackoverflow.com/questions/1513373/what-are-the-advantages-of-using-prolog-over-other-languages)
+- [Wikipedia](https://en.wikipedia.org/wiki/Prolog)
+- [Hacker News](https://news.ycombinator.com/item?id=40994552)
+- [Reddit - r/prolog](https://www.reddit.com/r/prolog/comments/952d5v/is_prolog_still_used_today_and_is_it_still_worth/)
+- [Stack Overflow](https://stackoverflow.com/questions/1513373/what-are-the-advantages-of-using-prolog-over-other-languages)
 
