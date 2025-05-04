@@ -14,3 +14,8 @@
 
 ![image](https://github.com/user-attachments/assets/1f90a9c9-3fbe-405f-a1c3-21984a047b58)
 ![image](https://github.com/user-attachments/assets/9437ce8c-150b-410e-a0ce-90bd2e2a3e5a)
+## 4. Ścieżka ma wiele punktów
+
+> Ale są coraz bliżej granicy, więc widać te krawędzie dopiero po przyzoomowaniu
+
+![image](https://github.com/user-attachments/assets/7d1fcbb1-779a-4124-a0a7-551534b29436)
