@@ -6,7 +6,7 @@
 ![image](https://github.com/user-attachments/assets/b25608bd-edf4-4c52-abc5-a216dff8380d)
 ## 2. Przybliżone
 
-> Można przybliżać i wtedy widać "kafelki" coraz bliższe granicy.
+> Można przybliżać i wtedy pojawiają się "kafelki" coraz bliższe granicy (które wcześniej nie były rysowane, bo były za małe).
 
 ![image](https://github.com/user-attachments/assets/3e826fef-caf7-4136-ade7-893506bc4f42)
 ## 3. Omówienie
