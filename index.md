@@ -10,6 +10,7 @@
 
 ![image](https://github.com/user-attachments/assets/3e826fef-caf7-4136-ade7-893506bc4f42)
 ## 3. Omówienie
-> Można wyświetlić omówienie jak to wszystko działa (w tym algorytm)
+> Można wyświetlić napisane przeze mnie omówienie jak to wszystko działa (w tym algorytm)
 
 ![image](https://github.com/user-attachments/assets/1f90a9c9-3fbe-405f-a1c3-21984a047b58)
+![image](https://github.com/user-attachments/assets/9437ce8c-150b-410e-a0ce-90bd2e2a3e5a)
