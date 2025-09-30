@@ -1,0 +1,539 @@
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: cmss   font-family: sans-serif;
+htfcss: cmssbx  font-family: sans-serif; font-weight: bold;
+htfcss: cmssbxo  font-family: sans-serif; font-style: oblique; font-weight: bold;
+htfcss: cmssdc  font-family: sans-serif;
+htfcss: cmssi  font-family: sans-serif; font-style: oblique;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: cmmi font-style: italic;
+htfcss: cmmib font-style: italic; font-weight: bold;
+htfcss: cmss   font-family: sans-serif;
+htfcss: cmssbx  font-family: sans-serif; font-weight: bold;
+htfcss: cmssbxo  font-family: sans-serif; font-style: oblique; font-weight: bold;
+htfcss: cmssdc  font-family: sans-serif;
+htfcss: cmssi  font-family: sans-serif; font-style: oblique;
+htfcss: cmss   font-family: sans-serif;
+htfcss: cmssbx  font-family: sans-serif; font-weight: bold;
+htfcss: cmssbxo  font-family: sans-serif; font-style: oblique; font-weight: bold;
+htfcss: cmssdc  font-family: sans-serif;
+htfcss: cmssi  font-family: sans-serif; font-style: oblique;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: ecbx  font-weight: bold;
+htfcss: ecsx  font-weight: bold;
+htfcss: ecbi  font-weight: bold;   font-style: italic;
+htfcss: ecit  font-style: italic; font-family: monospace,monospace;
+htfcss: ecss  font-family: sans-serif;
+htfcss: ecff  font-family: fantasy;
+htfcss: ecti  font-style: italic;
+htfcss: ectt  font-family: monospace,monospace;
+htfcss: cmss   font-family: sans-serif;
+htfcss: cmssbx  font-family: sans-serif; font-weight: bold;
+htfcss: cmssbxo  font-family: sans-serif; font-style: oblique; font-weight: bold;
+htfcss: cmssdc  font-family: sans-serif;
+htfcss: cmssi  font-family: sans-serif; font-style: oblique;
+File: main.html
+File: main.css
+File: main.tmp
+File: main2.html
+File: main.tmp
+File: main-1.svg
+File: main.tmp
+File: main-8.svg
+File: main.tmp
+File: main-81.svg
+File: main.tmp
+File: main-83.svg
+File: main-82.svg
+File: main.tmp
+File: main-90.svg
+File: main.tmp
+File: main-108.svg
+File: main.tmp
+File: main-110.svg
+File: main-109.svg
+File: main.tmp
+File: main-117.svg
+Css: p{margin-top:0;margin-bottom:0}
+Css: p.indent{text-indent:0;}
+Css: p + p{margin-top:1em;}
+Css: p + div, p + pre {margin-top:1em;}
+Css: div + p, pre + p {margin-top:1em;}
+Css: a { overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; hyphens: auto; }
+Css: @media print {div.crosslinks {visibility:hidden;}}
+Css: table.tabular{border-collapse: collapse; border-spacing: 0;}
+Css: a img { border-top: 0; border-left: 0; border-right: 0; }
+Font_Css("4"): .small-caps{font-variant: small-caps; }
+Font_Css("10"): .htf-cmbx {font-weight: bold; font-style:normal;}
+Font_Css("12"): .htf-calligraphy {font-family:cursive}
+Font_Css("14"): .htf-italic {font-style: italic;}
+Font_Css("16"): .htf-bold {font-weight: bold;}
+Font_Css("12"): .htf-calligraphy-bold {font-family:cursive ; font-weight: bold; }
+Css: center { margin-top:1em; margin-bottom:1em; }
+Css: td center { margin-top:0em; margin-bottom:0em; }
+Css: .Canvas { position:relative; }
+Css: img.math{vertical-align:middle;}
+Css: div.par-math-display, div.math-display{text-align:center;}
+Css: body{ margin:1em auto; max-width:80ch; padding:0 .62em; }
+Css: h1,h2,h3,h4,h5 { line-height:1.2; }
+Css: @media print{ body{ max-width:none } }
+Css: .partHead, .likepartHead { font-size: 2em; }
+Css: .chapterHead, .likechapterHead { font-size: 1.7411em; }
+Css: .sectionHead, .likesectionHead { font-size: 1.5157em; }
+Css: .subsectionHead, .likesubsectionHead { font-size: 1.3195em; }
+Css: .subsubsectionHead, .likesubsubsectionHead { font-size: 1.1487em; }
+Css:  @media (prefers-color-scheme: dark) { img[src^="main"]{filter: invert(1); } } 
+Css: li p.indent { text-indent: 0em }
+Css: li p:first-child{ margin-top:0em; }
+Css: li p:last-child, li div:last-child { margin-bottom:0.5em; }
+Css: li p:first-child{ margin-bottom:0; }
+Css: li p~ul:last-child, li p~ol:last-child{ margin-bottom:0.5em; }
+Css: .enumerate1 {list-style-type:decimal;}
+Css: .enumerate2 {list-style-type:lower-alpha;}
+Css: .enumerate3 {list-style-type:lower-roman;}
+Css: .enumerate4 {list-style-type:upper-alpha;}
+Css: div.newtheorem { margin-bottom: 2em; margin-top: 2em;}
+Css: div.newtheorem .head{font-weight: bold;}
+Css: .obeylines-h,.obeylines-v {white-space: nowrap; }
+Css: div.obeylines-v p { margin-top:0; margin-bottom:0; }
+Css: .overline{ text-decoration:overline; }
+Css: .overline img{ border-top: 1px solid black; }
+Css: td.displaylines {text-align:center; white-space:nowrap;}
+Css: .centerline {text-align:center;}
+Css: .rightline {text-align:right;}
+Css: pre.verbatim {font-family: monospace,monospace; text-align:left; clear:both; }
+Css: .fbox {padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: div.fbox {display:table}
+Css: div.center div.fbox {text-align:center; clear:both; padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: div.minipage{width:100%;}
+Css: div.center, div.center div.center {text-align: center; margin-left:1em; margin-right:1em;}
+Css: div.center div {text-align: left;}
+Css: div.flushright, div.flushright div.flushright {text-align: right;}
+Css: div.flushright div {text-align: left;}
+Css: div.flushleft {text-align: left;}
+Css: .underline{ text-decoration:underline; }
+Css: .underline img{ border-bottom: 1px solid black; margin-bottom:1pt; }
+Css: .framebox-c, .framebox-l, .framebox-r { padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+Css: .framebox-c {text-align:center;}
+Css: .framebox-l {text-align:left;}
+Css: .framebox-r {text-align:right;}
+Css: span.thank-mark{ vertical-align: super }
+Css: span.footnote-mark sup.textsuperscript, span.footnote-mark a sup.textsuperscript{ font-size:80%; }
+Css: code.verb{font-family:monospace,monospace;}
+Css: div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }
+Css: table.tabular td p{margin-top:0em;}
+Css: table.tabular {margin-left: auto; margin-right: auto;}
+Css: td p:first-child{ margin-top:0em; }
+Css: td p:last-child{ margin-bottom:0em; }
+Css: div.td00{ margin-left:0pt; margin-right:0pt; }
+Css: div.td01{ margin-left:0pt; margin-right:5pt; }
+Css: div.td10{ margin-left:5pt; margin-right:0pt; }
+Css: div.td11{ margin-left:5pt; margin-right:5pt; }
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: td.td00{ padding-left:0pt; padding-right:0pt; }
+Css: td.td01{ padding-left:0pt; padding-right:5pt; }
+Css: td.td10{ padding-left:5pt; padding-right:0pt; }
+Css: td.td11{ padding-left:5pt; padding-right:5pt; }
+Css: table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+Css: .hline hr, .cline hr{ height : 0px; margin:0px; }
+Css: .hline td, .cline td{ padding: 0; }
+Css: .hline hr, .cline hr{border:none;border-top:1px solid black;}
+Css: .hline {border-top: 1px solid black;}
+Css: .hline + .vspace:last-child{display:none;}
+Css: .hline:first-child{border-bottom:1px solid black;border-top:none;}
+Css: .tabbing-right {text-align:right;}
+Css: div.float, div.figure {margin-left: auto; margin-right: auto;}
+Css: div.float img {text-align:center;}
+Css: div.figure img {text-align:center;}
+Css: .marginpar,.reversemarginpar {width:20%; float:right; text-align:left; margin-left:auto; margin-top:0.5em; font-size:85%; text-decoration:underline;}
+Css: .marginpar p,.reversemarginpar p{margin-top:0.4em; margin-bottom:0.4em;}
+Css: .reversemarginpar{float:left;}
+Css: table.equation {width:100%;}
+Css: .equation td{text-align:center; }
+Css: td.equation { margin-top:1em; margin-bottom:1em; } 
+Css: td.equation-label { width:5%; text-align:center; }
+Css: td.eqnarray4 { width:5%; white-space: normal; }
+Css: td.eqnarray2 { width:5%; }
+Css: table.eqnarray-star, table.eqnarray {width:100%;}
+Css: div.eqnarray{text-align:center;}
+Css: div.array {text-align:center;}
+Css: div.pmatrix {text-align:center;}
+Css: table.pmatrix {width:100%;}
+Css: span.pmatrix img{vertical-align:middle;}
+Css: div.pmatrix {text-align:center;}
+Css: table.pmatrix {width:100%;}
+Css: span.bar-css {text-decoration:overline;}
+Css: img.cdots{vertical-align:middle;}
+Css: div.slide {border:solid black 0.4pt;}
+Css: div.slide {border:solid black 0.4pt;margin-bottom:1em;}
+Css: div.Example, div.examplblock, div.Beispiele, div.Beispiel, div.Examples, div.example, div.examples{color:green;}
+Css: .bibitem{display:grid;grid-template-columns:3em 1fr;}
+Css: h1, h2, span.inst sup{font-size:100%;}
+Css: .hidden {visibility:hidden;}
+Css: table.columns {width:100%;}
+Css: td.column {vertical-align:top;}
+Css: div.titlepage {text-align:center;}
+Css: div.institute { margin-bottom: 1em; margin-top: 1em;}
+Css: div.sectionintoc, div.sectionshadedintoc{ margin-top:1em; }
+Css: div.tableofcontents { padding-left:1em; padding-right:1em; padding-bottom:1em; }
+Css: .tableofcontents div.subsectionintoc, .tableofcontents div.subsectionshadedintoc{ margin-left:1em; }
+Css: div.header{ margin:0; text-align:right; font-size:70%; }
+Css: p.links{ margin:0; float:right; text-align:right; font-size:70%; }
+Css: div.bookmarks {white-space: nowrap;}
+Css: div.bookmarks div.subsectionintoc a { text-decoration: none; font-size:85%;}
+Css: span.alert {color:#FF0000;}
+Css: .rotatebox{display: inline-block;}
+Css: dl.enumerate {display:grid; grid-template-columns: 3ch 1fr; align-items: top; row-gap:1ch;}
+Css: dd.enumerate {margin-left: 0;}
+Css: .equation td{text-align:center; }
+Css: .equation-star td{text-align:center; }
+Css: table.equation-star { width:100%; }
+Css: table.equation { width:100%; }
+Css: table.align, table.alignat, table.xalignat, table.xxalignat, table.flalign {width:95%; margin-left:5%; white-space: nowrap;}
+Css: table.align-star, table.alignat-star, table.xalignat-star, table.flalign-star {margin-left:auto; margin-right:auto; white-space: nowrap;}
+Css: td.align-label { width:5%; text-align:center; }
+Css: td.align-odd { text-align:right; padding-right:0.3em;}
+Css: td.align-even { text-align:left; padding-right:0.6em;}
+Css: table.multline, table.multline-star {width:100%;}
+Css: td.gather {text-align:center; }
+Css: table.gather {width:100%;}
+Css: div.gather-star {text-align:center;}
+--- needs --- main.idv[2] ==> main0x.png ---
+--- needs --- main.idv[3] ==> main2x.png ---
+Css: span#colorbox7{background-color:#D6D6F0;}
+Css: span#colorbox10{background-color:#D6D6F0;}
+Css: span#colorbox13{background-color:#D6D6F0;}
+Css: img[src="main3x.png"]{vertical-align:-24.9999303250476%}
+--- needs --- main.idv[5] ==> main3x.png ---
+Css: img[src="main4x.png"]{vertical-align:-0%}
+--- needs --- main.idv[7] ==> main4x.png ---
+Css: img[src="main5x.png"]{vertical-align:-13.83169446406258%}
+--- needs --- main.idv[8] ==> main5x.png ---
+Css: img[src="main6x.png"]{vertical-align:-0%}
+--- needs --- main.idv[9] ==> main6x.png ---
+Css: img[src="main7x.png"]{vertical-align:-27.18745112400484%}
+--- needs --- main.idv[11] ==> main7x.png ---
+Css: span#colorbox16{background-color:#D6D6F0;}
+Css: img[src="main8x.png"]{vertical-align:-25%}
+--- needs --- main.idv[13] ==> main8x.png ---
+--- needs --- main.idv[14] ==> main9x.png ---
+--- needs --- main.idv[15] ==> main10x.png ---
+--- needs --- main.idv[16] ==> main11x.png ---
+Css: img[src="main12x.png"]{vertical-align:-29.1669156794106%}
+--- needs --- main.idv[17] ==> main12x.png ---
+Css: span#colorbox19{background-color:#D6D6F0;}
+Css: img[src="main13x.png"]{vertical-align:-0%}
+--- needs --- main.idv[19] ==> main13x.png ---
+Css: img[src="main14x.png"]{vertical-align:-18.17054665843373%}
+--- needs --- main.idv[20] ==> main14x.png ---
+Css: img[src="main15x.png"]{vertical-align:-0%}
+--- needs --- main.idv[22] ==> main15x.png ---
+Css: img[src="main16x.png"]{vertical-align:-0%}
+--- needs --- main.idv[23] ==> main16x.png ---
+Css: img[src="main17x.png"]{vertical-align:-0%}
+--- needs --- main.idv[24] ==> main17x.png ---
+Css: img[src="main18x.png"]{vertical-align:-41.66677262945558%}
+--- needs --- main.idv[25] ==> main18x.png ---
+Css: span#colorbox22{background-color:#D6D6F0;}
+Css: img[src="main19x.png"]{vertical-align:-0%}
+--- needs --- main.idv[27] ==> main19x.png ---
+Css: img[src="main20x.png"]{vertical-align:-0%}
+--- needs --- main.idv[28] ==> main20x.png ---
+Css: img[src="main21x.png"]{vertical-align:-0%}
+--- needs --- main.idv[29] ==> main21x.png ---
+Css: img[src="main22x.png"]{vertical-align:-29.1669156794106%}
+--- needs --- main.idv[30] ==> main22x.png ---
+Css: img[src="main23x.png"]{vertical-align:-0%}
+--- needs --- main.idv[31] ==> main23x.png ---
+Css: img[src="main24x.png"]{vertical-align:-0%}
+--- needs --- main.idv[32] ==> main24x.png ---
+Css: img[src="main25x.png"]{vertical-align:-18.17054665843373%}
+--- needs --- main.idv[34] ==> main25x.png ---
+Css: img[src="main26x.png"]{vertical-align:-29.16701019914045%}
+--- needs --- main.idv[35] ==> main26x.png ---
+Css: img[src="main27x.png"]{vertical-align:-29.16701019914045%}
+--- needs --- main.idv[36] ==> main27x.png ---
+Css: span#colorbox25{background-color:#D6D6F0;}
+Css: img[src="main28x.png"]{vertical-align:-12.50007838415762%}
+--- needs --- main.idv[38] ==> main28x.png ---
+Css: span#colorbox28{background-color:#D6D6F0;}
+Css: img[src="main29x.png"]{vertical-align:-24.9999303250476%}
+--- needs --- main.idv[40] ==> main29x.png ---
+Css: img[src="main30x.png"]{vertical-align:-29.16701019914045%}
+--- needs --- main.idv[41] ==> main30x.png ---
+Css: img[src="main31x.png"]{vertical-align:-16.37538095941356%}
+--- needs --- main.idv[42] ==> main31x.png ---
+Css: img[src="main32x.png"]{vertical-align:-22.31887159097411%}
+--- needs --- main.idv[43] ==> main32x.png ---
+Css: span#colorbox31{background-color:#D6D6F0;}
+Css: img[src="main33x.png"]{vertical-align:-24.9999303250476%}
+--- needs --- main.idv[45] ==> main33x.png ---
+--- needs --- main.idv[46] ==> main34x.png ---
+Css: span#colorbox34{background-color:#D6D6F0;}
+Css: img[src="main35x.png"]{vertical-align:-29.16701019914045%}
+--- needs --- main.idv[48] ==> main35x.png ---
+Css: img[src="main36x.png"]{vertical-align:-24.9999303250476%}
+--- needs --- main.idv[49] ==> main36x.png ---
+--- needs --- main.idv[50] ==> main37x.png ---
+Css: span#colorbox37{background-color:#D6D6F0;}
+--- needs --- main.idv[52] ==> main38x.png ---
+--- needs --- main.idv[53] ==> main39x.png ---
+--- needs --- main.idv[54] ==> main40x.png ---
+Css: span#colorbox40{background-color:#D6D6F0;}
+Css: img[src="main41x.png"]{vertical-align:-36.11134550876462%}
+--- needs --- main.idv[56] ==> main41x.png ---
+--- needs --- main.idv[57] ==> main42x.png ---
+--- needs --- main.idv[58] ==> main43x.png ---
+--- needs --- main.idv[59] ==> main44x.png ---
+--- needs --- main.idv[60] ==> main45x.png ---
+Css: img[src="main46x.png"]{vertical-align:-18.40990051895198%}
+--- needs --- main.idv[61] ==> main46x.png ---
+Css: img[src="main47x.png"]{vertical-align:-21.53611239823393%}
+--- needs --- main.idv[62] ==> main47x.png ---
+Css: img[src="main48x.png"]{vertical-align:-36.11134550876462%}
+--- needs --- main.idv[63] ==> main48x.png ---
+Css: img[src="main49x.png"]{vertical-align:-29.16701019914045%}
+--- needs --- main.idv[64] ==> main49x.png ---
+--- needs --- main.idv[65] ==> main50x.png ---
+Css: span#colorbox43{background-color:#D6D6F0;}
+Css: img[src="main51x.png"]{vertical-align:-27.75976286629398%}
+--- needs --- main.idv[67] ==> main51x.png ---
+--- needs --- main.idv[68] ==> main52x.png ---
+--- needs --- main.idv[69] ==> main53x.png ---
+--- needs --- main.idv[70] ==> main54x.png ---
+--- needs --- main.idv[71] ==> main55x.png ---
+--- needs --- main.idv[72] ==> main56x.png ---
+--- needs --- main.idv[73] ==> main57x.png ---
+--- needs --- main.idv[74] ==> main58x.png ---
+--- needs --- main.idv[75] ==> main59x.png ---
+--- needs --- main.idv[76] ==> main60x.png ---
+Css: span#colorbox46{background-color:#D6D6F0;}
+--- needs --- main.idv[78] ==> main61x.png ---
+Css: span#colorbox49{background-color:#D6D6F0;}
+--- needs --- main.idv[80] ==> main62x.png ---
+--- needs --- main.idv[82] ==> main63x.png ---
+--- needs --- main.idv[83] ==> main74x.png ---
+Css: img[src="main64x.png"]{vertical-align:-24.9999303250476%}
+--- needs --- main.idv[85] ==> main64x.png ---
+Css: img[src="main65x.png"]{vertical-align:-0%}
+--- needs --- main.idv[86] ==> main65x.png ---
+Css: img[src="main66x.png"]{vertical-align:-5.612971632056976%}
+--- needs --- main.idv[87] ==> main66x.png ---
+Css: img[src="main67x.png"]{vertical-align:-17.76472898729393%}
+--- needs --- main.idv[88] ==> main67x.png ---
+Css: img[src="main68x.png"]{vertical-align:-16.70696084843795%}
+--- needs --- main.idv[89] ==> main68x.png ---
+--- needs --- main.idv[90] ==> main69x.png ---
+Css: img[src="main70x.png"]{vertical-align:-0%}
+--- needs --- main.idv[91] ==> main70x.png ---
+Css: img[src="main71x.png"]{vertical-align:-24.9999303250476%}
+--- needs --- main.idv[92] ==> main71x.png ---
+--- needs --- main.idv[93] ==> main72x.png ---
+Css: span#colorbox52{background-color:#D6D6F0;}
+Css: img[src="main75x.png"]{vertical-align:-36.11134550876462%}
+--- needs --- main.idv[95] ==> main75x.png ---
+Css: img[src="main76x.png"]{vertical-align:-31.86372620149608%}
+--- needs --- main.idv[96] ==> main76x.png ---
+Css: img[src="main77x.png"]{vertical-align:-39.81677109736281%}
+--- needs --- main.idv[97] ==> main77x.png ---
+Css: img[src="main78x.png"]{vertical-align:-29.16701019914045%}
+--- needs --- main.idv[98] ==> main78x.png ---
+Css: img[src="main79x.png"]{vertical-align:-21.87501469705259%}
+--- needs --- main.idv[99] ==> main79x.png ---
+Css: span#colorbox55{background-color:#D6D6F0;}
+Css: img[src="main80x.png"]{vertical-align:-0%}
+--- needs --- main.idv[101] ==> main80x.png ---
+Css: img[src="main81x.png"]{vertical-align:-24.9999303250476%}
+--- needs --- main.idv[102] ==> main81x.png ---
+Css: img[src="main82x.png"]{vertical-align:-18.16884594732616%}
+--- needs --- main.idv[103] ==> main82x.png ---
+Css: span#colorbox58{background-color:#D6D6F0;}
+--- needs --- main.idv[105] ==> main83x.png ---
+Css: img[src="main84x.png"]{vertical-align:-21.53611239823393%}
+--- needs --- main.idv[106] ==> main84x.png ---
+Css: img[src="main85x.png"]{vertical-align:-17.76472898729393%}
+--- needs --- main.idv[107] ==> main85x.png ---
+Css: img[src="main86x.png"]{vertical-align:-18.17054665843373%}
+--- needs --- main.idv[108] ==> main86x.png ---
+Css: img[src="main87x.png"]{vertical-align:-26.36831807750328%}
+--- needs --- main.idv[109] ==> main87x.png ---
+Css: img[src="main88x.png"]{vertical-align:-0%}
+--- needs --- main.idv[110] ==> main88x.png ---
+Css: img[src="main89x.png"]{vertical-align:-18.17054665843373%}
+--- needs --- main.idv[111] ==> main89x.png ---
+Css: img[src="main90x.png"]{vertical-align:-0%}
+--- needs --- main.idv[112] ==> main90x.png ---
+--- needs --- main.idv[113] ==> main91x.png ---
+--- needs --- main.idv[114] ==> main92x.png ---
+--- needs --- main.idv[115] ==> main93x.png ---
+--- needs --- main.idv[116] ==> main94x.png ---
+Css: img[src="main95x.png"]{vertical-align:-40.07948401195744%}
+--- needs --- main.idv[117] ==> main95x.png ---
+Css: img[src="main96x.png"]{vertical-align:-35.85481657526539%}
+--- needs --- main.idv[118] ==> main96x.png ---
+Css: span#colorbox61{background-color:#D6D6F0;}
+Css: img[src="main97x.png"]{vertical-align:-18.16884594732616%}
+--- needs --- main.idv[120] ==> main97x.png ---
+Css: img[src="main98x.png"]{vertical-align:-24.9999303250476%}
+--- needs --- main.idv[121] ==> main98x.png ---
+Css: img[src="main99x.png"]{vertical-align:-18.16884594732616%}
+--- needs --- main.idv[122] ==> main99x.png ---
+Css: img[src="main100x.png"]{vertical-align:-17.76472898729393%}
+--- needs --- main.idv[123] ==> main100x.png ---
+Css: img[src="main101x.png"]{vertical-align:-18.17054665843373%}
+--- needs --- main.idv[124] ==> main101x.png ---
+Css: img[src="main102x.png"]{vertical-align:-0%}
+--- needs --- main.idv[125] ==> main102x.png ---
+--- needs --- main.idv[126] ==> main103x.png ---
+Css: img[src="main104x.png"]{vertical-align:-18.16884594732616%}
+--- needs --- main.idv[127] ==> main104x.png ---
+Css: span#colorbox64{background-color:#D6D6F0;}
+--- needs --- main.idv[129] ==> main105x.png ---
+--- needs --- main.idv[131] ==> main106x.png ---
+--- needs --- main.idv[132] ==> main116x.png ---
+Css: img[src="main107x.png"]{vertical-align:-0%}
+--- needs --- main.idv[134] ==> main107x.png ---
+Css: img[src="main108x.png"]{vertical-align:-24.9999303250476%}
+--- needs --- main.idv[135] ==> main108x.png ---
+Css: img[src="main109x.png"]{vertical-align:-0%}
+--- needs --- main.idv[136] ==> main109x.png ---
+Css: img[src="main110x.png"]{vertical-align:-0%}
+--- needs --- main.idv[137] ==> main110x.png ---
+--- needs --- main.idv[138] ==> main111x.png ---
+Css: img[src="main112x.png"]{vertical-align:-21.03824477500325%}
+--- needs --- main.idv[139] ==> main112x.png ---
+Css: img[src="main113x.png"]{vertical-align:-24.9999303250476%}
+--- needs --- main.idv[140] ==> main113x.png ---
+--- needs --- main.idv[141] ==> main114x.png ---
+--- characters ---
+Font("cmex","10","10","100")
+Font("cmmi","10","10","100")
+Font("cmsy","7","7","100")
+Font("cmsy","10","10","100")
+Font("cmss","10","10","109")
+Font("ecss","1095","10","100")
+Font("ecss","0600","6","100")
+Font("ecss","1440","14","100")
+Font("ecss","0800","8","100")
+Font("cmss","8","8","100")
+Font("cmss","8","8","75")
+Font("cmmi","10","10","109")
+Font("cmmi","8","8","100")
+Font("cmmi","6","6","100")
+Font("cmsy","10","10","109")
+Font("cmsy","8","8","100")
+Font("cmsy","6","6","100")
+Font("cmex","10","10","109")
+Font("msbm","10","10","109")
+Font("ecsi","1095","10","100")
+Font("ecsi","0800","8","100")
+Font("ecsi","0600","6","100")
+Font("ecsx","1440","14","100")
+Font("ecsx","1095","10","100")
+Font("ecss","1000","10","100")
+Font("cmss","10","10","100")
+Font("msbm","10","10","100")
+Font("ecss","0700","7","100")
+Font("ecsi","1000","10","100")
+Font("ecsi","0700","7","100")
+Font("ecss","1200","12","100")

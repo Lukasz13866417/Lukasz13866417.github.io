@@ -1,0 +1,721 @@
+ 
+/* start css.sty */
+.cmmi-10{font-style: italic;}
+.cmsy-7{font-size:70%;}
+.cmss-10x-x-109{font-size:109%;  font-family: sans-serif;}
+.cmss-10x-x-109{  font-family: sans-serif;}
+.cmss-10x-x-109{  font-family: sans-serif;}
+.cmss-10x-x-109{  font-family: sans-serif;}
+.ecss-1095{ font-family: sans-serif;}
+.ecss-1095{ font-family: sans-serif;}
+.ecss-1095{ font-family: sans-serif;}
+.ecss-1095{ font-family: sans-serif;}
+.ecss-1095{ font-family: sans-serif;}
+.ecss-1095{ font-family: sans-serif;}
+.ecss-1095{ font-family: sans-serif;}
+.ecss-1095{ font-family: sans-serif;}
+.ecss-1095{ font-family: sans-serif;}
+.ecss-1095{ font-family: sans-serif;}
+.ecss-1095{ font-family: sans-serif;}
+.ecss-1095{ font-family: sans-serif;}
+.ecss-1095{ font-family: sans-serif;}
+.ecss-1095{ font-family: sans-serif;}
+.ecss-0600{font-size:60%; font-family: sans-serif;}
+.ecss-0600{ font-family: sans-serif;}
+.ecss-0600{ font-family: sans-serif;}
+.ecss-0600{ font-family: sans-serif;}
+.ecss-0600{ font-family: sans-serif;}
+.ecss-0600{ font-family: sans-serif;}
+.ecss-0600{ font-family: sans-serif;}
+.ecss-0600{ font-family: sans-serif;}
+.ecss-0600{ font-family: sans-serif;}
+.ecss-0600{ font-family: sans-serif;}
+.ecss-0600{ font-family: sans-serif;}
+.ecss-0600{ font-family: sans-serif;}
+.ecss-0600{ font-family: sans-serif;}
+.ecss-0600{ font-family: sans-serif;}
+.ecss-1440{font-size:140%; font-family: sans-serif;}
+.ecss-1440{ font-family: sans-serif;}
+.ecss-1440{ font-family: sans-serif;}
+.ecss-1440{ font-family: sans-serif;}
+.ecss-1440{ font-family: sans-serif;}
+.ecss-1440{ font-family: sans-serif;}
+.ecss-1440{ font-family: sans-serif;}
+.ecss-1440{ font-family: sans-serif;}
+.ecss-1440{ font-family: sans-serif;}
+.ecss-1440{ font-family: sans-serif;}
+.ecss-1440{ font-family: sans-serif;}
+.ecss-1440{ font-family: sans-serif;}
+.ecss-1440{ font-family: sans-serif;}
+.ecss-1440{ font-family: sans-serif;}
+.ecss-0800{font-size:80%; font-family: sans-serif;}
+.ecss-0800{ font-family: sans-serif;}
+.ecss-0800{ font-family: sans-serif;}
+.ecss-0800{ font-family: sans-serif;}
+.ecss-0800{ font-family: sans-serif;}
+.ecss-0800{ font-family: sans-serif;}
+.ecss-0800{ font-family: sans-serif;}
+.ecss-0800{ font-family: sans-serif;}
+.ecss-0800{ font-family: sans-serif;}
+.ecss-0800{ font-family: sans-serif;}
+.ecss-0800{ font-family: sans-serif;}
+.ecss-0800{ font-family: sans-serif;}
+.ecss-0800{ font-family: sans-serif;}
+.ecss-0800{ font-family: sans-serif;}
+.cmss-8{font-size:80%;  font-family: sans-serif;}
+.cmss-8{  font-family: sans-serif;}
+.cmss-8{  font-family: sans-serif;}
+.cmss-8{  font-family: sans-serif;}
+.cmss-8x-x-75{font-size:60%;  font-family: sans-serif;}
+.cmss-8x-x-75{  font-family: sans-serif;}
+.cmss-8x-x-75{  font-family: sans-serif;}
+.cmss-8x-x-75{  font-family: sans-serif;}
+.cmmi-10x-x-109{font-size:109%;font-style: italic;}
+.cmmi-8{font-size:80%;font-style: italic;}
+.cmmi-6{font-size:60%;font-style: italic;}
+.cmsy-10x-x-109{font-size:109%;}
+.cmsy-8{font-size:80%;}
+.cmsy-6{font-size:60%;}
+.cmex-10x-x-109{font-size:109%;}
+.msbm-10x-x-109{font-size:109%;}
+.ecsi-0800{font-size:80%;}
+.ecsi-0600{font-size:60%;}
+.ecsx-1440{font-size:140%; font-weight: bold;}
+.ecsx-1440{ font-weight: bold;}
+.ecsx-1440{ font-weight: bold;}
+.ecsx-1440{ font-weight: bold;}
+.ecsx-1440{ font-weight: bold;}
+.ecsx-1440{ font-weight: bold;}
+.ecsx-1440{ font-weight: bold;}
+.ecsx-1440{ font-weight: bold;}
+.ecsx-1440{ font-weight: bold;}
+.ecsx-1440{ font-weight: bold;}
+.ecsx-1440{ font-weight: bold;}
+.ecsx-1440{ font-weight: bold;}
+.ecsx-1440{ font-weight: bold;}
+.ecsx-1440{ font-weight: bold;}
+.ecsx-1095{ font-weight: bold;}
+.ecsx-1095{ font-weight: bold;}
+.ecsx-1095{ font-weight: bold;}
+.ecsx-1095{ font-weight: bold;}
+.ecsx-1095{ font-weight: bold;}
+.ecsx-1095{ font-weight: bold;}
+.ecsx-1095{ font-weight: bold;}
+.ecsx-1095{ font-weight: bold;}
+.ecsx-1095{ font-weight: bold;}
+.ecsx-1095{ font-weight: bold;}
+.ecsx-1095{ font-weight: bold;}
+.ecsx-1095{ font-weight: bold;}
+.ecsx-1095{ font-weight: bold;}
+.ecsx-1095{ font-weight: bold;}
+.ecss-1000{ font-family: sans-serif;}
+.ecss-1000{ font-family: sans-serif;}
+.ecss-1000{ font-family: sans-serif;}
+.ecss-1000{ font-family: sans-serif;}
+.ecss-1000{ font-family: sans-serif;}
+.ecss-1000{ font-family: sans-serif;}
+.ecss-1000{ font-family: sans-serif;}
+.ecss-1000{ font-family: sans-serif;}
+.ecss-1000{ font-family: sans-serif;}
+.ecss-1000{ font-family: sans-serif;}
+.ecss-1000{ font-family: sans-serif;}
+.ecss-1000{ font-family: sans-serif;}
+.ecss-1000{ font-family: sans-serif;}
+.ecss-1000{ font-family: sans-serif;}
+.cmss-10{  font-family: sans-serif;}
+.cmss-10{  font-family: sans-serif;}
+.cmss-10{  font-family: sans-serif;}
+.cmss-10{  font-family: sans-serif;}
+.ecss-0700{font-size:70%; font-family: sans-serif;}
+.ecss-0700{ font-family: sans-serif;}
+.ecss-0700{ font-family: sans-serif;}
+.ecss-0700{ font-family: sans-serif;}
+.ecss-0700{ font-family: sans-serif;}
+.ecss-0700{ font-family: sans-serif;}
+.ecss-0700{ font-family: sans-serif;}
+.ecss-0700{ font-family: sans-serif;}
+.ecss-0700{ font-family: sans-serif;}
+.ecss-0700{ font-family: sans-serif;}
+.ecss-0700{ font-family: sans-serif;}
+.ecss-0700{ font-family: sans-serif;}
+.ecss-0700{ font-family: sans-serif;}
+.ecss-0700{ font-family: sans-serif;}
+.ecsi-0700{font-size:70%;}
+.ecss-1200{font-size:120%; font-family: sans-serif;}
+.ecss-1200{ font-family: sans-serif;}
+.ecss-1200{ font-family: sans-serif;}
+.ecss-1200{ font-family: sans-serif;}
+.ecss-1200{ font-family: sans-serif;}
+.ecss-1200{ font-family: sans-serif;}
+.ecss-1200{ font-family: sans-serif;}
+.ecss-1200{ font-family: sans-serif;}
+.ecss-1200{ font-family: sans-serif;}
+.ecss-1200{ font-family: sans-serif;}
+.ecss-1200{ font-family: sans-serif;}
+.ecss-1200{ font-family: sans-serif;}
+.ecss-1200{ font-family: sans-serif;}
+.ecss-1200{ font-family: sans-serif;}
+p{margin-top:0;margin-bottom:0}
+p.indent{text-indent:0;}
+p + p{margin-top:1em;}
+p + div, p + pre {margin-top:1em;}
+div + p, pre + p {margin-top:1em;}
+a { overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; hyphens: auto; }
+@media print {div.crosslinks {visibility:hidden;}}
+table.tabular{border-collapse: collapse; border-spacing: 0;}
+a img { border-top: 0; border-left: 0; border-right: 0; }
+center { margin-top:1em; margin-bottom:1em; }
+td center { margin-top:0em; margin-bottom:0em; }
+.Canvas { position:relative; }
+img.math{vertical-align:middle;}
+div.par-math-display, div.math-display{text-align:center;}
+body{ margin:1em auto; max-width:80ch; padding:0 .62em; }
+h1,h2,h3,h4,h5 { line-height:1.2; }
+@media print{ body{ max-width:none } }
+.partHead, .likepartHead { font-size: 2em; }
+.chapterHead, .likechapterHead { font-size: 1.7411em; }
+.sectionHead, .likesectionHead { font-size: 1.5157em; }
+.subsectionHead, .likesubsectionHead { font-size: 1.3195em; }
+.subsubsectionHead, .likesubsubsectionHead { font-size: 1.1487em; }
+ @media (prefers-color-scheme: dark) { img[src^="main"]{filter: invert(1); } } 
+li p.indent { text-indent: 0em }
+li p:first-child{ margin-top:0em; }
+li p:last-child, li div:last-child { margin-bottom:0.5em; }
+li p:first-child{ margin-bottom:0; }
+li p~ul:last-child, li p~ol:last-child{ margin-bottom:0.5em; }
+.enumerate1 {list-style-type:decimal;}
+.enumerate2 {list-style-type:lower-alpha;}
+.enumerate3 {list-style-type:lower-roman;}
+.enumerate4 {list-style-type:upper-alpha;}
+div.newtheorem { margin-bottom: 2em; margin-top: 2em;}
+div.newtheorem .head{font-weight: bold;}
+.obeylines-h,.obeylines-v {white-space: nowrap; }
+div.obeylines-v p { margin-top:0; margin-bottom:0; }
+.overline{ text-decoration:overline; }
+.overline img{ border-top: 1px solid black; }
+td.displaylines {text-align:center; white-space:nowrap;}
+.centerline {text-align:center;}
+.rightline {text-align:right;}
+pre.verbatim {font-family: monospace,monospace; text-align:left; clear:both; }
+.fbox {padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+div.fbox {display:table}
+div.center div.fbox {text-align:center; clear:both; padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+div.minipage{width:100%;}
+div.center, div.center div.center {text-align: center; margin-left:1em; margin-right:1em;}
+div.center div {text-align: left;}
+div.flushright, div.flushright div.flushright {text-align: right;}
+div.flushright div {text-align: left;}
+div.flushleft {text-align: left;}
+.underline{ text-decoration:underline; }
+.underline img{ border-bottom: 1px solid black; margin-bottom:1pt; }
+.framebox-c, .framebox-l, .framebox-r { padding-left:3.0pt; padding-right:3.0pt; text-indent:0pt; border:solid black 0.4pt; }
+.framebox-c {text-align:center;}
+.framebox-l {text-align:left;}
+.framebox-r {text-align:right;}
+span.thank-mark{ vertical-align: super }
+span.footnote-mark sup.textsuperscript, span.footnote-mark a sup.textsuperscript{ font-size:80%; }
+code.verb{font-family:monospace,monospace;}
+div.tabular, div.center div.tabular {text-align: center; margin-top:0.5em; margin-bottom:0.5em; }
+table.tabular td p{margin-top:0em;}
+table.tabular {margin-left: auto; margin-right: auto;}
+td p:first-child{ margin-top:0em; }
+td p:last-child{ margin-bottom:0em; }
+div.td00{ margin-left:0pt; margin-right:0pt; }
+div.td01{ margin-left:0pt; margin-right:5pt; }
+div.td10{ margin-left:5pt; margin-right:0pt; }
+div.td11{ margin-left:5pt; margin-right:5pt; }
+table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+td.td00{ padding-left:0pt; padding-right:0pt; }
+td.td01{ padding-left:0pt; padding-right:5pt; }
+td.td10{ padding-left:5pt; padding-right:0pt; }
+td.td11{ padding-left:5pt; padding-right:5pt; }
+table[rules] {border-left:solid black 0.4pt; border-right:solid black 0.4pt; }
+.hline hr, .cline hr{ height : 0px; margin:0px; }
+.hline td, .cline td{ padding: 0; }
+.hline hr, .cline hr{border:none;border-top:1px solid black;}
+.hline {border-top: 1px solid black;}
+.hline + .vspace:last-child{display:none;}
+.hline:first-child{border-bottom:1px solid black;border-top:none;}
+.tabbing-right {text-align:right;}
+div.float, div.figure {margin-left: auto; margin-right: auto;}
+div.float img {text-align:center;}
+div.figure img {text-align:center;}
+.marginpar,.reversemarginpar {width:20%; float:right; text-align:left; margin-left:auto; margin-top:0.5em; font-size:85%; text-decoration:underline;}
+.marginpar p,.reversemarginpar p{margin-top:0.4em; margin-bottom:0.4em;}
+.reversemarginpar{float:left;}
+table.equation {width:100%;}
+.equation td{text-align:center; }
+td.equation { margin-top:1em; margin-bottom:1em; } 
+td.equation-label { width:5%; text-align:center; }
+td.eqnarray4 { width:5%; white-space: normal; }
+td.eqnarray2 { width:5%; }
+table.eqnarray-star, table.eqnarray {width:100%;}
+div.eqnarray{text-align:center;}
+div.array {text-align:center;}
+div.pmatrix {text-align:center;}
+table.pmatrix {width:100%;}
+span.pmatrix img{vertical-align:middle;}
+div.pmatrix {text-align:center;}
+table.pmatrix {width:100%;}
+span.bar-css {text-decoration:overline;}
+img.cdots{vertical-align:middle;}
+div.slide {border:solid black 0.4pt;}
+div.slide {border:solid black 0.4pt;margin-bottom:1em;}
+div.Example, div.examplblock, div.Beispiele, div.Beispiel, div.Examples, div.example, div.examples{color:green;}
+.bibitem{display:grid;grid-template-columns:3em 1fr;}
+h1, h2, span.inst sup{font-size:100%;}
+.hidden {visibility:hidden;}
+table.columns {width:100%;}
+td.column {vertical-align:top;}
+div.titlepage {text-align:center;}
+div.institute { margin-bottom: 1em; margin-top: 1em;}
+div.sectionintoc, div.sectionshadedintoc{ margin-top:1em; }
+div.tableofcontents { padding-left:1em; padding-right:1em; padding-bottom:1em; }
+.tableofcontents div.subsectionintoc, .tableofcontents div.subsectionshadedintoc{ margin-left:1em; }
+div.header{ margin:0; text-align:right; font-size:70%; }
+p.links{ margin:0; float:right; text-align:right; font-size:70%; }
+div.bookmarks {white-space: nowrap;}
+div.bookmarks div.subsectionintoc a { text-decoration: none; font-size:85%;}
+span.alert {color:#FF0000;}
+.rotatebox{display: inline-block;}
+dl.enumerate {display:grid; grid-template-columns: 3ch 1fr; align-items: top; row-gap:1ch;}
+dd.enumerate {margin-left: 0;}
+.equation td{text-align:center; }
+.equation-star td{text-align:center; }
+table.equation-star { width:100%; }
+table.equation { width:100%; }
+table.align, table.alignat, table.xalignat, table.xxalignat, table.flalign {width:95%; margin-left:5%; white-space: nowrap;}
+table.align-star, table.alignat-star, table.xalignat-star, table.flalign-star {margin-left:auto; margin-right:auto; white-space: nowrap;}
+td.align-label { width:5%; text-align:center; }
+td.align-odd { text-align:right; padding-right:0.3em;}
+td.align-even { text-align:left; padding-right:0.6em;}
+table.multline, table.multline-star {width:100%;}
+td.gather {text-align:center; }
+table.gather {width:100%;}
+div.gather-star {text-align:center;}
+span#colorbox7{background-color:#D6D6F0;}
+span#colorbox10{background-color:#D6D6F0;}
+span#colorbox13{background-color:#D6D6F0;}
+img[src="main3x.png"]{vertical-align:-24.9999303250476%}
+img[src="main4x.png"]{vertical-align:-0%}
+img[src="main5x.png"]{vertical-align:-13.83169446406258%}
+img[src="main6x.png"]{vertical-align:-0%}
+img[src="main7x.png"]{vertical-align:-27.18745112400484%}
+span#colorbox16{background-color:#D6D6F0;}
+img[src="main8x.png"]{vertical-align:-25%}
+img[src="main12x.png"]{vertical-align:-29.1669156794106%}
+span#colorbox19{background-color:#D6D6F0;}
+img[src="main13x.png"]{vertical-align:-0%}
+img[src="main14x.png"]{vertical-align:-18.17054665843373%}
+img[src="main15x.png"]{vertical-align:-0%}
+img[src="main16x.png"]{vertical-align:-0%}
+img[src="main17x.png"]{vertical-align:-0%}
+img[src="main18x.png"]{vertical-align:-41.66677262945558%}
+span#colorbox22{background-color:#D6D6F0;}
+img[src="main19x.png"]{vertical-align:-0%}
+img[src="main20x.png"]{vertical-align:-0%}
+img[src="main21x.png"]{vertical-align:-0%}
+img[src="main22x.png"]{vertical-align:-29.1669156794106%}
+img[src="main23x.png"]{vertical-align:-0%}
+img[src="main24x.png"]{vertical-align:-0%}
+img[src="main25x.png"]{vertical-align:-18.17054665843373%}
+img[src="main26x.png"]{vertical-align:-29.16701019914045%}
+img[src="main27x.png"]{vertical-align:-29.16701019914045%}
+span#colorbox25{background-color:#D6D6F0;}
+img[src="main28x.png"]{vertical-align:-12.50007838415762%}
+span#colorbox28{background-color:#D6D6F0;}
+img[src="main29x.png"]{vertical-align:-24.9999303250476%}
+img[src="main30x.png"]{vertical-align:-29.16701019914045%}
+img[src="main31x.png"]{vertical-align:-16.37538095941356%}
+img[src="main32x.png"]{vertical-align:-22.31887159097411%}
+span#colorbox31{background-color:#D6D6F0;}
+img[src="main33x.png"]{vertical-align:-24.9999303250476%}
+span#colorbox34{background-color:#D6D6F0;}
+img[src="main35x.png"]{vertical-align:-29.16701019914045%}
+img[src="main36x.png"]{vertical-align:-24.9999303250476%}
+span#colorbox37{background-color:#D6D6F0;}
+span#colorbox40{background-color:#D6D6F0;}
+img[src="main41x.png"]{vertical-align:-36.11134550876462%}
+img[src="main46x.png"]{vertical-align:-18.40990051895198%}
+img[src="main47x.png"]{vertical-align:-21.53611239823393%}
+img[src="main48x.png"]{vertical-align:-36.11134550876462%}
+img[src="main49x.png"]{vertical-align:-29.16701019914045%}
+span#colorbox43{background-color:#D6D6F0;}
+img[src="main51x.png"]{vertical-align:-27.75976286629398%}
+span#colorbox46{background-color:#D6D6F0;}
+span#colorbox49{background-color:#D6D6F0;}
+img[src="main64x.png"]{vertical-align:-24.9999303250476%}
+img[src="main65x.png"]{vertical-align:-0%}
+img[src="main66x.png"]{vertical-align:-5.612971632056976%}
+img[src="main67x.png"]{vertical-align:-17.76472898729393%}
+img[src="main68x.png"]{vertical-align:-16.70696084843795%}
+img[src="main70x.png"]{vertical-align:-0%}
+img[src="main71x.png"]{vertical-align:-24.9999303250476%}
+span#colorbox52{background-color:#D6D6F0;}
+img[src="main75x.png"]{vertical-align:-36.11134550876462%}
+img[src="main76x.png"]{vertical-align:-31.86372620149608%}
+img[src="main77x.png"]{vertical-align:-39.81677109736281%}
+img[src="main78x.png"]{vertical-align:-29.16701019914045%}
+img[src="main79x.png"]{vertical-align:-21.87501469705259%}
+span#colorbox55{background-color:#D6D6F0;}
+img[src="main80x.png"]{vertical-align:-0%}
+img[src="main81x.png"]{vertical-align:-24.9999303250476%}
+img[src="main82x.png"]{vertical-align:-18.16884594732616%}
+span#colorbox58{background-color:#D6D6F0;}
+img[src="main84x.png"]{vertical-align:-21.53611239823393%}
+img[src="main85x.png"]{vertical-align:-17.76472898729393%}
+img[src="main86x.png"]{vertical-align:-18.17054665843373%}
+img[src="main87x.png"]{vertical-align:-26.36831807750328%}
+img[src="main88x.png"]{vertical-align:-0%}
+img[src="main89x.png"]{vertical-align:-18.17054665843373%}
+img[src="main90x.png"]{vertical-align:-0%}
+img[src="main95x.png"]{vertical-align:-40.07948401195744%}
+img[src="main96x.png"]{vertical-align:-35.85481657526539%}
+span#colorbox61{background-color:#D6D6F0;}
+img[src="main97x.png"]{vertical-align:-18.16884594732616%}
+img[src="main98x.png"]{vertical-align:-24.9999303250476%}
+img[src="main99x.png"]{vertical-align:-18.16884594732616%}
+img[src="main100x.png"]{vertical-align:-17.76472898729393%}
+img[src="main101x.png"]{vertical-align:-18.17054665843373%}
+img[src="main102x.png"]{vertical-align:-0%}
+img[src="main104x.png"]{vertical-align:-18.16884594732616%}
+span#colorbox64{background-color:#D6D6F0;}
+img[src="main107x.png"]{vertical-align:-0%}
+img[src="main108x.png"]{vertical-align:-24.9999303250476%}
+img[src="main109x.png"]{vertical-align:-0%}
+img[src="main110x.png"]{vertical-align:-0%}
+img[src="main112x.png"]{vertical-align:-21.03824477500325%}
+img[src="main113x.png"]{vertical-align:-24.9999303250476%}
+/* end css.sty */
+
+img.math,
+img.frac,
+img.delim,
+img.over,
+img.under,
+img.big,
+.math img {
+  position: relative !important;
+  z-index: 10 !important;
+  opacity: 1 !important;
+  mix-blend-mode: normal !important;
+  filter: none !important;
+  background: transparent !important;
+  display: inline-block !important;
+}
+
+/* Beamer title color strip should not sit above content */
+.colorbox {
+  position: relative !important;
+  z-index: 0 !important;
+}
+
+/* Just in case some broad rule hid all images on slides */
+.slide img {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.math-display img,
+.equation img,
+.equation-star img,
+div[class^="equation"] img,   /* catch-all for TeX4ht equation wrappers */
+.theorem .minipage img {      /* math images inside theorem's text block */
+  position: relative !important;
+  z-index: 20 !important;
+  opacity: 1 !important;
+  mix-blend-mode: normal !important;
+  filter: none !important;
+  background: transparent !important;
+  display: inline-block !important;
+}
+
+/* Keep your previous inline-math fix too */
+img.math,
+img.frac,
+img.delim,
+img.over,
+img.under,
+img.big,
+.math img {
+  position: relative !important;
+  z-index: 20 !important;
+  opacity: 1 !important;
+  mix-blend-mode: normal !important;
+  filter: none !important;
+  background: transparent !important;
+  display: inline-block !important;
+}
+
+/* --- 2) Lower (or neutralize) the decorative theorem-frame images ------- */
+.theorem,
+.proof,
+.definition,
+.lemma,
+.proposition,
+.corollary,
+.example {
+  position: relative;                 /* create a stacking context */
+}
+
+/* TeX4ht emits these as <img alt="picture">, <img alt=" picture">, etc. */
+.theorem  > img[alt*="picture"],
+.proof    > img[alt*="picture"],
+.definition > img[alt*="picture"],
+.lemma    > img[alt*="picture"],
+.proposition > img[alt*="picture"],
+.corollary > img[alt*="picture"],
+.example  > img[alt*="picture"] {
+  position: relative !important;
+  z-index: 1 !important;              /* behind the math */
+  pointer-events: none !important;    /* ignore mouse */
+  mix-blend-mode: normal !important;
+  opacity: 1 !important;
+}
+
+
+/* ===== Modern slide theme (append at end of main.css) =================== */
+:root{
+  --bg: #f6f7fb;
+  --panel: #ffffff;
+  --ink: #0f172a;
+  --muted: #5b6470;
+  --border: #e5e7eb;
+  --accent: #2563eb;   /* change these two to recolor the theme */
+  --accent-2: #7c3aed;
+  --radius: 14px;
+  --pad: clamp(1rem, 1.2vw + .75rem, 1.75rem);
+  --shadow-1: 0 .2px .6px rgba(2,6,23,.14), 0 8px 20px rgba(2,6,23,.06);
+  --shadow-2: 0 .4px 1px rgba(2,6,23,.16), 0 14px 36px rgba(2,6,23,.10);
+}
+
+@media (prefers-color-scheme: dark){
+  :root{
+    --bg: #0b0f17;
+    --panel: #0f172a;
+    --ink: #e5e7eb;
+    --muted: #9aa4b2;
+    --border: #1f2937;
+    --accent: #60a5fa;
+    --accent-2: #c084fc;
+    --shadow-1: 0 1px 0 rgba(0,0,0,.6), 0 10px 22px rgba(0,0,0,.45);
+    --shadow-2: 0 1px 0 rgba(0,0,0,.7), 0 18px 40px rgba(0,0,0,.55);
+  }
+}
+
+/* Page & type ------------------------------------------------------------ */
+html, body{
+  background:
+    radial-gradient(1200px 800px at -15% -15%, rgba(37,99,235,.10), transparent 55%),
+    radial-gradient(1200px 800px at 115% 115%, rgba(124,58,237,.10), transparent 52%),
+    var(--bg);
+  color: var(--ink);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.55;
+  max-width: 70rem; /* a bit wider than 80ch for “slides” */
+}
+
+h1, h2, h3{ font-weight: 800; letter-spacing: -.012em; }
+a{ color: color-mix(in oklab, var(--accent), white 10%); text-decoration: none;
+   border-bottom: 1px solid color-mix(in oklab, var(--accent), transparent 75%); }
+a:hover{ border-bottom-color: currentColor; }
+
+/* Slide card ------------------------------------------------------------- */
+div.slide{
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: var(--pad);
+  margin: 1rem 0 1.25rem;
+  background: var(--panel);
+  box-shadow: var(--shadow-1);
+  transition: box-shadow .18s ease, transform .18s ease;
+}
+div.slide:hover{ box-shadow: var(--shadow-2); transform: translateY(-1px); }
+
+/* Section bar (beamer colorbox) ----------------------------------------- */
+div.slide > .colorbox{
+  display:block;
+  margin: calc(-1 * var(--pad));
+  margin-bottom: 1rem;
+  padding: .6rem 1rem;
+  border-radius: var(--radius) var(--radius) 0 0;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  color: #fff !important;
+  box-shadow: inset 0 -1px 0 rgb(255 255 255 / .15);
+}
+div.slide > .colorbox *{ color:#fff !important; }
+
+/* Title page ------------------------------------------------------------- */
+div.titlepage{ text-align:center; padding-block: .5rem 0; }
+h1.title{ font-size: clamp(1.9rem, 2.2vw + 1.2rem, 2.8rem); margin:.25rem 0 .5rem; }
+div.titlepage .author,
+div.titlepage .institute,
+div.titlepage .date,
+div.titlepage .minipage{ color: var(--muted); }
+
+/* Lists: tighter, cleaner ------------------------------------------------ */
+ul.itemize1, ul.itemize2{
+  padding-left: 1.1rem;
+  margin: .4rem 0 .8rem;
+}
+ul.itemize1 > li, ul.itemize2 > li{ margin: .38rem 0; }
+li.itemize p.noindent{ margin:0; } /* kill extra spacing inside LIs */
+
+/* Theorem / proof blocks (drop bitmap frames) --------------------------- */
+.theorem, .proof, .definition, .lemma, .proposition, .corollary, .example{
+  margin: .75rem 0;
+  padding: .75rem 1rem;
+  background: color-mix(in oklab, var(--accent) 4%, var(--panel));
+  border-left: .35rem solid var(--accent);
+  border: 1px solid color-mix(in oklab, var(--accent) 16%, var(--border));
+  border-radius: 10px;
+}
+.theorem > img[alt*="picture"],
+.proof   > img[alt*="picture"],
+.definition > img[alt*="picture"],
+.lemma   > img[alt*="picture"],
+.proposition > img[alt*="picture"],
+.corollary > img[alt*="picture"],
+.example > img[alt*="picture"]{ display:none !important; } /* hide legacy art */
+.theorem .minipage:first-of-type{ font-weight:700; color: var(--accent); margin-bottom:.25rem; }
+
+/* Display equations: compact spacing ----------------------------------- */
+div.par-math-display, div.math-display{ margin: .5rem 0; }
+table.equation, table.equation-star{ margin:.25rem 0 .75rem; }
+
+/* Math PNGs stay visible, above overlays, and baseline-aligned ---------- */
+img.math, img.frac, img.delim, img.over, img.under, img.big, .math img{
+  position: relative !important;
+  z-index: 20 !important;
+  display: inline-block !important;
+  vertical-align: -.125em; /* good default for inline math images */
+  background: transparent !important;
+  opacity: 1 !important;
+  mix-blend-mode: normal !important;
+  filter: none !important;
+}
+.math-display img, .equation img, .equation-star img,
+div[class^="equation"] img, .theorem .minipage img{
+  position: relative !important;
+  z-index: 20 !important;
+  display: inline-block !important;
+  background: transparent !important;
+  opacity: 1 !important;
+  mix-blend-mode: normal !important;
+  filter: none !important;
+}
+
+/* Dark-mode: cancel old global invert, invert only math art ------------- */
+@media (prefers-color-scheme: dark){
+  img[src^="main"]{ filter:none !important; } /* neutralize broad rule above */
+  img.math, img.frac, img.delim, img.over, img.under, img.big,
+  .math-display img, .equation img, .equation-star img{
+    filter: invert(1) hue-rotate(180deg);
+  }
+}
+
+/* Code blocks (if any) -------------------------------------------------- */
+pre.verbatim{
+  background: color-mix(in oklab, var(--ink) 4%, transparent);
+  border: 1px dashed var(--border);
+  border-radius: 10px;
+  padding: .75rem 1rem;
+  overflow:auto;
+}
+
+
+/* === Center slides + brighten cards (append at end) ==================== */
+:root{
+  /* how wide each slide can grow */
+  --deck-max: 68rem;
+  /* brighter surfaces for crisp dark PNG text */
+  --bg: #f8fafc;
+  --panel: #ffffff;
+}
+
+/* Give the page full width and center its children */
+html, body{
+  max-width: none !important;  /* ignore earlier page max-widths */
+  min-height: 100%;
+}
+
+body{
+  margin: 0;                           /* reset UA margin */
+  display: grid;                       /* center the column of slides */
+  grid-auto-rows: max-content;
+  justify-items: center;               /* <— horizontal centering */
+  align-items: start;
+  padding-block: 1rem 2rem;
+  padding-inline: clamp(12px, 2vw, 28px);
+  background:
+    radial-gradient(1200px 800px at -15% -15%, rgba(37,99,235,.10), transparent 55%),
+    radial-gradient(1200px 800px at 115% 115%, rgba(124,58,237,.10), transparent 52%),
+    var(--bg);
+}
+
+/* Each slide (and title page) uses a centered, readable width */
+div.slide,
+div.titlepage,
+div.tableofcontents{
+  width: min(100%, var(--deck-max));
+  margin-inline: auto;                 /* fallback if body layout changes */
+}
+
+/* Brighter card surface + softer border for best contrast with PNG math */
+div.slide{
+  background: linear-gradient(
+     to bottom,
+     color-mix(in oklab, #fff 96%, var(--panel) 4%),
+     var(--panel)
+  );
+  border-color: color-mix(in oklab, #e5e7eb, white 30%);
+  box-shadow: var(--shadow-1, 0 .2px .6px rgba(2,6,23,.14), 0 8px 20px rgba(2,6,23,.06));
+}
+
+/* Theorem / proof blocks stay very light too (ink-first) */
+.theorem, .proof, .definition, .lemma, .proposition, .corollary, .example{
+  background: color-mix(in oklab, var(--panel) 96%, #fff);
+  border-color: color-mix(in oklab, #e5e7eb, white 30%);
+}
+
+/* Keep math PNGs above overlays and baseline-aligned */
+img.math, img.frac, img.delim, img.over, img.under, img.big, .math img{
+  position: relative !important;
+  z-index: 20 !important;
+  display: inline-block !important;
+  vertical-align: -.125em;
+  background: transparent !important;
+  opacity: 1 !important;
+  mix-blend-mode: normal !important;
+  filter: none !important;
+}
+
+/* Dark mode: don't invert the whole page, only the PNG math */
+@media (prefers-color-scheme: dark){
+  img[src^="main"]{ filter: none !important; }
+  img.math, img.frac, img.delim, img.over, img.under, img.big,
+  .math-display img, .equation img, .equation-star img{
+    filter: invert(1) hue-rotate(180deg);
+  }
+}
+/* --- Force normal text to solid black, keep colorbox titles white --- */
+
+/* 1) Make body text black for maximum contrast with math PNGs */
+body,
+.slide,
+.slide p,
+.slide li,
+.slide .minipage,
+.titlepage,
+.theorem, .proof, .definition, .lemma, .proposition, .corollary, .example {
+  color: #000 !important;
+}
+
+/* Optional: make links black too (with an underline) */
+/* a { color: #000 !important; text-decoration: underline; } */
+
+/* 2) Keep the text inside the Beamer section bars white */
+div.slide > .colorbox,
+div.slide > .colorbox * {
+  color: #fff !important;
+}

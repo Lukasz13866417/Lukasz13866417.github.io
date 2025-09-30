@@ -1,0 +1,432 @@
+% Basic Beamer Presentation Template
+\documentclass{beamer}
+
+\ifdefined\HCode
+  % Use the dvisvgm driver when TeX4ht is active:
+  \def\pgfsysdriver{pgfsys-dvisvgm4ht.def}
+\fi
+\usepackage{tikz}
+
+% Theme choice
+\usetheme{Madrid}
+\usecolortheme{seahorse}
+
+% Encoding & math
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+
+% Info
+\title[Short Title]{Why epsilon-nets are small}
+\subtitle{Based on  "When are epsilon-nets small?" \\by
+Andrey Kupavskii,Nikita Zhivotovskiy\\ (sections 1-4) }
+\author[Łukasz Staszewski]{Łukasz Staszewski}
+\institute[Your Institute]{MIM UW}
+\date{\today}
+
+% Optional: Define a shortened footline with page numbers
+\setbeamerfont{footline}{size=\tiny}
+\setbeamertemplate{footline}{%
+  \leavevmode%
+  \hbox{%
+    \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1ex,left]{author in head/foot}%
+      \usebeamerfont{author in head/foot}\insertshortauthor
+    \end{beamercolorbox}%
+    \begin{beamercolorbox}[wd=.5\paperwidth,ht=2.5ex,dp=1ex,right]{date in head/foot}%
+      \usebeamerfont{date in head/foot}\insertshortdate{} \hspace*{2em}
+      \insertframenumber{} / \inserttotalframenumber\hspace*{2ex}
+    \end{beamercolorbox}%
+  }
+  \vskip0pt%
+}
+
+\begin{document}
+
+% Title page
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{\textbf{Introduction}}
+The paper uses well-known data metrics to find as small as possible $\epsilon$-nets.
+\end{frame}
+
+% Optional: Table of contents
+\begin{frame}{\textbf{Outline}}
+  % Example section and slide
+  \begin{itemize}
+      \item Introduction
+      \item Usefulness of \textbf{VC-Dimension}
+      \item Usefulness of \textbf{Alexander's capacity}  (+ proof of new result)
+      \item Usefulness of \textbf{Doubling Constant}  (+ proof of new result)
+      \item Usefulness of \textbf{Packing numbers}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{\textbf{Introduction}}
+The definition.
+  % Add your bullet points here
+  \begin{itemize}
+    \item We are given a \textbf{range space} \( (X,R) \). 
+    \begin{itemize}
+        \item \(X\) \hspace{0.9cm} (elements)
+        \item \(\mathcal{R} \subseteq 2^X\) \hspace{0.035cm} (ranges - measurable)
+        \item \(P\) \hspace{0.9cm} (probability measure)
+    \end{itemize}
+    \vspace{0.5cm}
+    \item \textbf{$\epsilon$-net} is a subset which intersects each range that has probability $\geq \epsilon$
+    i.e.\\
+    $S \subseteq X$, such that \(\forall_{R \in \mathcal{R}}\bigl(\Pr(R) \geq \epsilon \implies S \cap R \neq \emptyset \bigr)\)
+    \vspace{0.5cm}
+    \item In the paper (and my presentation) we avoid measurability issues (assume data is finite)
+  \end{itemize}
+\end{frame}
+
+
+\begin{frame}{\textbf{Introduction}}
+  Simple use case: Statistical Learning (classification).
+  \begin{itemize}
+    \item We have data set $X$. Function of correct answers - $f^*(x_i)=y_i$.
+    \item We want model with error rate $\leq\epsilon$.
+    \item Solution:
+    \begin{itemize}
+        \item Define range space: \( (X,\mathcal{R}) \), $\forall_{x \in X}\Pr \bigl( x\bigr) = \frac{1}{|X|}$
+        \item where \(\mathcal{R} = \bigl \{ \{ x \in X \hspace{0.1cm} : \hspace{0.1cm} f^*(x) \neq f(x) \}\hspace{0.1cm} : \hspace{0.1cm}f  \text{ \hspace{0.1cm}is some model} \bigr \}\)
+        \item Find an $\epsilon$-net $S$. \hspace{0.2cm} $S$ is some sample.
+        \item By $\epsilon-net$ definition, every model with error rate $\geq \epsilon$ was wrong on some data in $S$
+        \item Equivalently, if a model got everything right on that sample, it had to have error rate $<\epsilon$. 
+    \end{itemize}
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{Detour: Another use case}
+ % Add your bullet points here
+  \begin{itemize}
+    \item We are in space $\mathbb{N}^d$
+    \vspace{0.2cm}
+    \item Among all those points, \(N\) are "special".
+    \vspace{0.2cm}
+    \item $i$-th query: Count special pts in region \(R_i\) (hyperrect)
+    \vspace{0.2cm}
+    \item Solution setup:
+    \begin{itemize} 
+        \item \(X\): \hspace{0.9cm} big enough region of $\mathbb{N}^d$
+        \item \(\mathcal{R}\): \hspace{0.9cm} all possible hyperrects of \(X\).
+        \item \(
+      \Pr(x_1,\dots,x_d)
+      =
+      \begin{cases}
+        1/N, & \text{if special}\\
+        0,   & \text{otherwise.}
+      \end{cases}
+    \)
+    \end{itemize}
+    
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{Detour: Another use case}
+  % Add your bullet points here
+  \begin{itemize}
+    \item Solution setup:
+    \begin{itemize} 
+        \item \(X\): \hspace{0.9cm} big enough region of $\mathbb{N}^d$
+        \item \(\mathcal{R}\): \hspace{0.9cm} all possible hyperrects of \(X\).
+    \item \( \Pr \bigl(R \bigr)\) = "how many special pts are in \(R\), relative to universe" \\ so almost the answer!
+      \item Preprocess an $\epsilon$-net. Call it \(S\).
+    
+    \end{itemize}
+    
+    \item When presented with query \(R_i\), our answer is  \( (\epsilon + \Pr \bigl(S \cap R_i \bigr)) \cdot N \)
+    \vspace{0.2cm}
+    \item $R_i \cap S$ has \( \Pr \bigl(S \cap R_i \bigr) \cdot N \) special pts. 
+    \vspace{0.2cm}
+    \item Why claim that $R_i - S$ has $\epsilon N$ special pts? 
+    \vspace{0.2cm}
+    \item Because if it had $>\epsilon N$ points, $S$ would have to intersect it!
+    \vspace{0.2cm}
+    \item Therefore, we overshoot by $<\epsilon N$ 
+    \vspace{0.2cm}
+    \item This error can be adjusted (pick smaller $\epsilon$)!
+    
+
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{\textbf{Introduction}}
+    Finding \(\epsilon-nets\).
+    \begin{itemize}
+        \item Randomly picking (sufficiently many) elements to form the net
+        \begin{itemize}
+            \item How many is sufficient? 
+            \item Natural complexity measures will give us bounds on that.
+        \end{itemize}
+        \vspace{0.2cm}
+        \item Other ways
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{\textbf{VC-Dimension}}
+    \begin{itemize}
+        \item We have range space \((X,\mathcal{R})\) again.
+        \vspace{0.2cm}
+        \item Let's define  \( \mathcal{R}|_Y = \bigl\{ R \cap Y | R \in \mathcal{R} \bigr\} \)
+        \vspace{0.2cm}
+        \item \textbf{VC-Dimension}: Size of biggest possible \textit{shattered} subset of X. 
+        \vspace{0.2cm}
+        \item i.e. size of biggest \(Y \subseteq X\), such that \( \mathcal{R}|_Y = 2^Y \)
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{\textbf{VC-Dimension}}
+    \begin{itemize}
+        \item We want to find $\epsilon$-net (we chose the value of $\epsilon$) by randomly picking elements from X.
+        \vspace{0.2cm}
+        \item We want to adjust our chances of finding it.
+        \vspace{0.2cm}
+        \item Knowing the VC-Dimension, we can calculate how many random elements (at most) we should pick. 
+        \vspace{0.2cm}
+        \item \textbf{Theorem}: If we know that \( (X,\mathcal{R}) \) has VC-Dimension $d$, we can get an $\epsilon$-net with probability $1-\delta$ with random picking method, if we pick:
+       \[
+m = O\!\Bigl(\frac{d\,\log\frac{1}{\epsilon}}{\epsilon}
+     \;+\;\frac{\log\frac{1}{\delta}}{\epsilon}\Bigr)
+\]
+elements.
+
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{\textbf{Alexander's Capacity}}
+    \begin{itemize}
+        \item An \textbf{$\epsilon$-size group}: \( \mathcal{R}_{\leq \epsilon} := \{\,R \in \mathcal{R} : \Pr \bigl(R \bigr)\le \epsilon_0 \} \)
+        \vspace{0.2cm}
+        \item A size group is problematic, if cumulative probability is big, relative to individual. In the opposite case, there is considerable "overlap" \\i.e. not many elements needed to "hit" whole group
+        \vspace{0.2cm}
+        \item \( \tau(\epsilon)\) is like a suffix maximum of these ratios.
+        \vspace{0.2cm}
+        \item \textbf{Formula}:
+        \[
+\tau(\epsilon) \;:=\; 
+\sup_{\epsilon_0 \ge \epsilon}
+\frac{
+  P\Bigl(\!\bigcup_{R \in \mathcal{R}_{\le \epsilon_0}} R\Bigr)
+}{\epsilon_0}
+\]
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{\textbf{New result using Alexander’s capacity}}
+\begin{itemize}
+    \item  Let $(X,\mathcal{R})$ be a range space of VC-dimension $d$.  Fix $\varepsilon>0$.
+    \item  There exists an $\epsilon$-net of size\\
+  \[O\!\Bigl(d\,\sum_{i=1}^{1 + \Bigl\lceil \log_2\frac{1}{\varepsilon}\Bigr\rceil} \tau(2^i\epsilon)\,\log\tau(2^i\epsilon)\Bigr).\]
+  \vspace{0.2cm}
+    \item More elegantly: for each integer $i\ge1$, set
+  \begin{equation*}
+    \tau_i := \tau\bigl(2^i\varepsilon\bigr),
+    \quad
+    z := 1 + \Bigl\lceil \log_2\frac{1}{\varepsilon}\Bigr\rceil.
+  \end{equation*}
+  \item Then there exists an $\varepsilon$-net for $(X,\mathcal{R})$ of size
+  \begin{equation*}
+    O\!\Bigl(d\,\sum_{i=1}^{z} \tau_i\,\log\tau_i\Bigr).
+  \end{equation*}
+\end{itemize}
+  
+\end{frame}
+
+\begin{frame}{\textbf{Proof}}
+\begin{itemize}
+  \item We must prove existence of $\varepsilon$-net of size
+   \( O\!\Bigl(d\,\sum_{i=1}^{z} \tau_i\,\log\tau_i\Bigr) \)
+  \vspace{0.2cm}
+  \item We partition the set of ranges based on size (probability).\\
+  $\mathcal{R}_i = \{R \in \mathcal{R} \hspace{0.2cm} : \hspace{0.2cm} \Pr \bigl (R \bigr) \in (2^{i-1}\epsilon,2^i\epsilon)\}$\\
+  where $\mathcal{R}_0 = \{R \in \mathcal{R} \hspace{0.2cm} : \hspace{0.2cm} \Pr \bigl (R \bigr) \in (0,2^0\epsilon)\}$
+  \vspace{0.2cm}
+  \item Each group (\(\mathcal{R}_i\)) creates sub-rangespace \( (X^{(i)},\mathcal{R}_i) \), where $X^{(i)}=\bigcup_{R \in \mathcal{R}_i}R$. \hspace{0.2cm} Notice - there are  \(\Bigl\lceil \log_2\frac{1}{\varepsilon}\Bigr\rceil = z\) groups.
+  \item Let's prove that $i$-th sub-rangespace has $\epsilon$-net of size \( O\bigl ( d \tau_i \log \tau_i\bigr )\) 
+  \item Use definition of AC: \[
+\tau_i =
+\sup_{\epsilon_0 \ge 2^i\epsilon}
+\frac{
+  \Pr\Bigl(\!\bigcup_{R \in \mathcal{R}_{i_{\le \epsilon_0}}} R\Bigr)
+}{\epsilon_0}
+\geq
+\frac{
+  \Pr\Bigl(\!\bigcup_{R \in \mathcal{R}_{i_{\le 2^i\epsilon}}} R\Bigr)
+}{\epsilon_0}
+=
+\frac{
+  \Pr\Bigl(X^{(i)}\Bigr)
+}{\epsilon_0}
+\]
+  
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{\textbf{Proof, continued}}
+\begin{itemize}
+
+\item This gives us: \( \Pr \bigl( X^{(i)}  \bigr) \leq \tau_i 2^i \epsilon \)
+\vspace{0.2cm}
+\item But, by definition, for each range $R$ in $\mathcal{R}_i$, $\Pr \bigl( R\bigr) \geq 2^{i-1}\epsilon$
+\vspace{0.2cm}
+\item \textbf{Trick:} Each sub-rangespace we treat as separate probabilistic space. 
+\item $\Pr_i \bigl( R \bigr) = \Pr \bigl( R | X^{(i)}\bigr) = \frac{\Pr \bigl(R \cap X^{(i)} \bigr)}{\Pr \bigl(X^{(i)} \bigr)} = \frac{\Pr \bigl(R \bigr)}{\Pr \bigl(X^{(i)} \bigr)} \geq \frac{1}{2\tau_i}$
+\item Since every range in this sub-rangespace has this lowerbound, a $1/2\tau_i$-net will cover all ranges. So it's also $\epsilon$-net in the original sense (if we removed ranges beyond this subspace).
+\item The first (VC-Dimension slide) bound says that such a net exists and has the desired size. 
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}{\textbf{Doubling constant}}
+\begin{itemize}
+  \item $\displaystyle \mathcal{M}(\mathcal{R},\epsilon)$ is the \emph{$\epsilon$–packing number} of~$\mathcal R$. 
+  \vspace{0.5ex}
+  \item It is the largest number of ranges you can select from~$\mathcal R$ so that any two are “far apart,” namely
+  their XOR has probability $\geq \epsilon$  \vspace{1ex}
+  \item The \textit{doubling constant} is
+  \[
+    D_{\epsilon}(P,\mathcal R)
+    \;=\;
+    \sup_{\epsilon_0\ge\epsilon}
+    \mathcal M\bigl(\mathcal R_{\le2\epsilon_0},\,\epsilon_0\bigr).
+  \]
+  \vspace{1ex}
+  \item \emph{In plain English:}\quad
+   How many ranges can we pick, while still maintaining the "distinctiveness" (every two ranges' XOR has probability $\geq$ half the probability of "biggest" range)
+\end{itemize}
+\end{frame}
+
+\begin{frame}{\textbf{Doubling constant - new result}}
+\begin{theorem}[]
+Let \((X,\mathcal R)\) be a range space of VC‐dimension \(d\).  Fix \(\epsilon>0\) and let \(D_{\epsilon}\) be an upper bound on its doubling constant.  For each integer \(i\ge1\) set
+\[
+  \tau_i := \tau\bigl(2^i\epsilon\bigr),
+  \qquad
+  z := 1 + \Bigl\lceil \log_2 \tfrac1\epsilon\Bigr\rceil.
+\]
+Then there exists an \(\epsilon\)-net for \((X,\mathcal R)\) of size
+\[
+\begin{cases}
+  O\!\displaystyle\Bigl(\sum_{i=1}^{z}
+      \bigl(\log\tfrac{D_{\epsilon}}{\tau_i} + d\bigr)\,\tau_i\Bigr),
+    &\text{if }D_{\epsilon}\ge2\,\tau_1,\\[1ex]
+  O\!\displaystyle\Bigl(d\,D_{\epsilon}\,\log\tfrac1{\epsilon\,D_{\epsilon}}\Bigr),
+    &\text{if }D_{\epsilon}\le\tfrac1{2\epsilon}.
+\end{cases}
+\]
+\end{theorem}
+
+\end{frame}
+
+\begin{frame}{\textbf{Doubling constant - new result - proof}}
+    The proof starts similar to previous proof (previous "new result" with Alexander's capacity)
+    \vspace{0.3cm}
+    \begin{itemize}
+        \item  Partition ranges into sub-rangespaces:
+   For $i=1,2,\dots,z$ set
+
+   \(
+     \epsilon_i = 2^i\,\epsilon,
+     \quad
+     R_i = \{ R \in \mathcal{R} : \epsilon_{i-1}\le \Pr \bigl (R \bigr )<\epsilon_i\},
+     \quad
+     z = 1+\Bigl\lceil\log_2\frac1\epsilon\Bigr\rceil.
+   \)
+    \vspace{0.3cm}
+   \item Restrict and renormalize.
+   \(
+     X^{(i)}=\bigcup_{R\in \mathcal{R}_i}R,
+     \quad
+     \Pr_i \bigl( R \bigr )= \Pr \bigl( R  \mid X^{(i)} \bigr)
+   \)
+   \vspace{0.3cm}
+   \item  By Alexander’s capacity,
+   $\;P(X^{(i)})\le\tau_i\,\epsilon_i$, where $\tau_i=\tau(2^i\epsilon)$.
+   Hence under $P_i$ each $R$ has mass
+    \(
+     \Pr_i \bigl (R \bigr )\;=\;\frac{\Pr \bigl(R \bigr)}{\Pr \bigl(X^{(i)} \bigr )}
+     \;\ge\;
+     \frac{\tfrac12\epsilon_i}{\tau_i\,\epsilon_i}
+     \;=\;
+     \frac1{2\,\tau_i}\, := \delta_i
+   \)
+   \vspace{0.3cm}
+   \item New symbol for later:\\Within $i$-th sub-rangespace, \(\rho(R_1,R_2) = \Pr_i \bigl(R_1 \triangle R_2\bigr)\)
+   \\ \( \triangle \) is set XOR (symmetric difference)
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{\textbf{Doubling constant - new result - proof continued}}
+  \begin{itemize}
+    \item As before, build "separate" \( \epsilon\text{-net}\) for every sub-rangespace (ignoring other ranges).
+    \item Similar trick: treat every sub-rangespace as a separate probabilistic space.
+    \item Translating to sub-rangespace probabilities:
+          \( \Pr(R) \ge \epsilon \implies \Pr_i(R) \ge \delta_i\).
+    \item So, a \( \delta_i\)\!-net suffices.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}{\textbf{Doubling constant - new result - proof continued}}
+  \begin{itemize}
+    \item By definition of the doubling constant,
+      \[
+        \mathcal{M}\bigl(\mathcal{R}_{\le 2\epsilon_i},\,\epsilon_i\bigr)
+        \;\le\; D_{\epsilon}.
+      \]
+      So there is a \emph{packing set}
+      \(\{R^{(1)},\dots,R^{(D_\epsilon)}\}\subseteq \mathcal{R}_i\)
+      of size at most \(D_\epsilon\), such that every
+      \(R\in\mathcal{R}_i\) lies within distance \(\epsilon_i\) of some
+      \(R^{(j)}\)
+    \item \textbf{Clustering:}  Assign each \(R\in\mathcal{R}_i\)
+      to one of its “nearest” centers \(R^{(j)}\). How big is the overlap?
+      \item Let's take a center $Q$, and some range $R$ in its "vicinity" (i.e. $\Pr \bigl(R \cap Q \bigr) \geq \epsilon_{i-1}$.
+      \item Recall (packing) that $\Pr \bigl (R \triangle Q\bigr ) \leq \epsilon_{i-1}$
+      \item Now, \( \Pr_i \bigl(R \cap Q \bigr) = \frac{\Pr \bigl (R \cap Q \bigr)}{\Pr \bigl( X^{(i)} \bigr)} =\frac { \Pr \bigl(R \bigr) + \Pr \bigl (Q \bigr ) - \Pr \bigl( R \triangle Q \bigr) }{\Pr \bigl (X^{(i)} \bigr)} \)
+      \item Plugging in previous assumptions, we get:\\
+      \( \Pr_i \bigl(R \cap Q\bigr) \geq \frac{\epsilon_{i-1}}{\tau_i \epsilon_i} = \delta_i\)
+      \end{itemize}
+      
+\end{frame}
+
+\begin{frame}{\textbf{Doubling constant - new result - proof continued}}
+  \begin{itemize}
+    \item \(\delta_i\)\textbf{-net on the centers:}  
+     Each center has \(\Pr_i \ge
+      \delta_i:=1/(2\tau_i)\).  A \(\delta_i\)-net for the
+      \(D_\epsilon\) centers automatically hits every \(R\in\mathcal{R}_i\),
+      since each such \(R\) has $\ge \delta_i$ overlap with closest center.
+
+    \item \textbf{Chernoff-style bound} tells us to draw  
+      
+      \[
+        m_i \;=\; O\!\Bigl(\tfrac1{\delta_i}\bigl(\ln D_\epsilon+\ln\tfrac1{\delta'}\bigr)\Bigr)
+      \]
+      i.i.d.\ points under \(\Pr_i\).
+      \item The two cases (i), (ii) only differ in the way we sum $m_i$ (small vs doubling constant) 
+      \end{itemize}
+      
+\end{frame}
+
+\begin{frame}{\textbf{Packing numbers}}
+    \begin{theorem}[Haussler]
+Let \(\mathcal F\) be a class of \(\{0,1\}\)-valued functions on \(X\) with VC-dimension \(d\), and define the distance
+\[
+\rho(f,g)\;=\;P\bigl(\{x:f(x)\neq g(x)\}\bigr).
+\]
+Suppose that for every pair of distinct \(f,g\in\mathcal F\) we have \(\rho(f,g)\ge\epsilon\).  Then
+\[
+\bigl|\mathcal F\bigr|\;\le\;
+e(d+1)
+\;\Bigl(\tfrac{2e}{\epsilon}\Bigr)^{\!d}.
+\]
+\end{theorem}
+
+\end{frame}
+
+\end{document}
